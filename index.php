@@ -46,7 +46,7 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
         <div class="span4 text-center service-box">
           <a href="/vanquish/pages/about.php?page=about">
             <img src="img/generic/saling-icon.png">
-            <h2>Outstanding Saling Performace</h2>
+            <h2>Passion for Performance</h2>
              <p>High tech engineering translating into fast, adaptable and fuel efficient yachts. </p>
           </a>
         </div>
@@ -86,7 +86,7 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
   
 <?php include 'templates/footer.php'; ?>
 
- <?php 
+ <?php /*
 
 //////////////////
 //TMP landing overlay image
@@ -118,4 +118,4 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
   <?php
 	} 
 	
-?>
+*/ ?>

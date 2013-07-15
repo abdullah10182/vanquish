@@ -4,12 +4,13 @@
       <div class="row-fluid">
         
         <!--Bottom Section One-->
-        <div class="span4">
+        <div class="span4 foot_about">
           <h2>About Us</h2>
             <p>Vanquish Yachts is a company that designs and builds high-end performance yachts. 
-                These yachts are hand built using the latest manufacturing techniques ensuring the utmost quality and reliability. 
-                With the use of the latest design technologies and engineering principles 
-                we manufacture standard line yachts and customer specific yachts to suit any needs.</p><br />
+              These yachts are hand built using the latest manufacturing techniques ensuring the 
+              utmost quality and reliability. Working together with the countries best designers 
+              and applying the latest engineering technologies we manufacture standard line yachts 
+              and customer specific yachts to suit any needs.</p><br />
             <a class="more" href="/vanquish/pages/about.php?page=about">+ More</a>
         </div>
         
@@ -19,7 +20,7 @@
         </div>
         
         <!--Bottom Section Three-->
-        <div class="span4">
+        <div class="span4 foot_about">
           <h2>Contact Info</h2>
           <p>Weg en Bos 21  <br />
           2661 DG, Bergschenhoek <br />

@@ -22,15 +22,20 @@
       <div class="row-fluid">
         <div class="span6">
           <h2>About Us</h2>
-          <p class="lead">Learn About Who We Are</p>
           <p>Vanquish Yachts is a company that designs and builds high-end performance yachts. 
-              These yachts are hand built using the latest manufacturing techniques ensuring the utmost quality and reliability.
-              With the use of the latest design technologies and engineering principles
-              we manufacture standard line yachts and customer specific yachts to suit any needs.</p>
+              These yachts are hand built using the latest manufacturing techniques ensuring the 
+              utmost quality and reliability. Working together with the countries best designers 
+              and applying the latest engineering technologies we manufacture standard line yachts 
+              and customer specific yachts to suit any needs.</p>
           
-          <p>Located in the Netherlands, Vanquish Yachts is a company which builds high-end yachts with passion and innovation, this certainly reflects in our products.
-              Distinguish yourself with a unique product that excels above the rest; distinguish yourself with a hand built high-end performance machine that only Vanquish Yachts can deliver. 
-             <p>
+          <p> Located in the Netherlands, Vanquish Yachts is a company which builds high-end yachts 
+              with passion and innovation, this certainly reflects in our products. The Netherlands 
+              is known to be one of the most famous yacht building countries of the world. Some of 
+              the best yachts out there on the market or manufactured by the Dutch and Vanquish Yachts 
+              is no exception. We strive to stand out among our competition by delivering the highest 
+              quality product out there. <p>
+              
+              <p>Distinguish yourself with a unique product that excels above the rest; distinguish yourself with a hand built high-end performance machine that only Vanquish Yachts can deliver. </p>
               <br />
           
         </div>
@@ -81,7 +86,7 @@
         
         <!--Third Column-->
         <div class="span4 ">
-          <h2>Outstanding Saling Performace</h2>
+          <h2>Passion for</br> Performance</h2>
           <p>High tech engineering translating into fast, adaptable and fuel efficient yachts. </p>
         </div>
         
