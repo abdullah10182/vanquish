@@ -1,0 +1,122 @@
+/* ==========================================================================
+   Insert Your Custom Styles Below. All styles located in this file will
+   override existing main.css stylesheets.
+   ========================================================================== */ 
+.navbar .container {
+width: auto;
+max-width: 1170px;
+}
+
+ .navbar div.nav-collapse>ul>li>a {
+	padding: 0;
+	padding: 17px 26px;
+	border-right: 1px solid black;
+	border-left: 1px solid #696969;
+  }
+  
+  .navbar div.nav-collapse>ul>li:first-child a {
+  border-left: none;
+  }
+  
+   .navbar div.nav-collapse>ul>li:last-child a {
+  border-right: none;
+  }
+  
+  
+   .navbar div.nav-collapse>ul>li {
+	padding : 19px 0;
+   }
+   
+   .well-large {
+       
+       box-shadow: 0 1px 15px rgba(1, 1, 1, .3);
+   }
+
+   
+   /*----slide show-----*/
+   .left {
+       clear:both;
+      float: left;
+   }
+   
+      .right {
+       
+      float: right;
+      clear:both;
+   }
+   
+   .top {
+       margin-top:10%;
+   }
+   
+   /*  facebook  */
+   .like-text {
+       text-align: center;
+   }
+   
+   .accordion-heading h2{
+     color: grey;
+     padding-bottom: 10px;
+     padding-top:10px;
+     text-align: center;
+   
+     
+   }
+   
+    .accordion-heading {
+        transition: all 1000ms;
+        background: #eeeeee; /* Old browsers */
+        background: -moz-linear-gradient(top,  #eeeeee 0%, #eeeeee 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #eeeeee 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #eeeeee 0%,#eeeeee 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #eeeeee 0%,#eeeeee 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #eeeeee 0%,#eeeeee 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+    }
+    
+      .accordion-heading:hover {
+          background: #B1AD74;
+          color: white;
+      }
+      
+      .accordion-heading:hover h2 {
+         
+          color: white;
+      }
+
+    
+      /*  3 boxes front page*/
+      .three-boxes-front img {
+          width: 70px;
+          float: left;
+          margin: 30px 20px 0 0;
+      }
+      
+      .three-boxes-front h2 {
+          text-align: left;
+      }
+      
+         .three-boxes-front p {
+          height: 80px;
+         }
+   
+/*evetns page=======*/
+
+.events .event{
+    background: whitesmoke;
+    padding: 20px;
+}
+
+.events img {
+   float: left; 
+   margin-right: 15px;
+}
+
+.events a {
+    color: grey;
+}
+
+.events a:hover {
+    color: lightgrey;
+}

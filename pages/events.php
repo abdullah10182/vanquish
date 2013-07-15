@@ -1,0 +1,65 @@
+<?php 
+   $path_header = $_SERVER['DOCUMENT_ROOT'];
+   $path_header .= "/vanquish/templates/header.php";
+   include_once($path_header);
+
+?>
+
+  <!--Main Content-->
+  <section id="content">
+    <div class="container">
+        <h2>Events</h2>
+      <div class="row-fluid">
+        <div class="span12">
+          
+          <!--Bread Crumbs-->
+          <ul class="breadcrumb">
+            <li><a href="#">Home</a> <span class="divider">/</span></li>
+            <li class="active">Events</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="row-fluid events">
+        <div class="span6 event">
+          
+          <h3>Festival de la plaisance 2013</h3>
+            <img src="../img/events/fdlp2013.jpg">
+            Date: 10 - 15 September 2013 </br>
+            Location: Cannes, France</br>
+            Website: <a href="http://www.salonnautiquecannes.com/">www.salonnautiquecannes.com</a></br>
+        </div>
+      </div>
+      
+
+		
+		
+   
+      
+    </div>
+  </section>  
+  
+  
+  <!--Message Section-->
+  <section id="message">
+    <div class="container">
+      <div class="row-fluid">
+        <div class="span12 text-center">
+          <h2>Innovative and Graceful design.</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!--glasses front page-->
+  <section id="clients"> 
+        <img src="/vanquish/img/generic/gallery-footer-02.jpg" >
+  </section>
+  
+  
+<?php 
+   $path_header = $_SERVER['DOCUMENT_ROOT'];
+   $path_header .= "/vanquish/templates/footer.php";
+   include_once($path_header);
+ ?>
