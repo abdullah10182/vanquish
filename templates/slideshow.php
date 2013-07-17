@@ -1,4 +1,4 @@
-  
+  <?php /*
   <!-- Carousel -->
   <div id="header" class="carousel slide animated fadeIn">
     <div class="carousel-inner">
@@ -39,3 +39,17 @@
     <a class="left carousel-control hidden-phone" href="#header" data-slide="prev"><i class="icon-angle-left"></i></a>
     <a class="right carousel-control hidden-phone" href="#header" data-slide="next"><i class="icon-angle-right"></i></a>
   </div><!-- /.carousel -->
+   * 
+   */ ?>
+  
+  <div class="fluid_container">
+  
+        <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
+         <div data-thumb="../images/slides/thumbs/bridge.jpg" data-src="/vanquish/img/slides/slide-01.jpg"></div>
+         <div data-thumb="../images/slides/thumbs/bridge.jpg" data-src="/vanquish/img/slides/slide-01.jpg"></div>
+   
+     
+        </div><!-- #camera_wrap_1 -->
+
+  
+    </div><!-- .fluid_container -->

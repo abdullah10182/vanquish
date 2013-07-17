@@ -27,7 +27,9 @@ else $page="home";
   <link rel="stylesheet" href="/vanquish/css/bootstrap.min.css">
   <link rel="stylesheet" href="/vanquish/css/main.css">
   <link rel="stylesheet" href="/vanquish/css/colorbox.css" />
+    <link rel="stylesheet" href="/vanquish/css/camera.css">
   <link rel="stylesheet" href="/vanquish/css/custom-styles.css">
+  
 
   <script src="/vanquish/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 

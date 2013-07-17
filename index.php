@@ -13,24 +13,12 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
    include_once($path_slide); 
  ?>
 
-    
-  <!--hand built-->
-  <section id="well">
-    <div class="well well-large">
-      <div class="container">
-        <div class="row-fluid">
-          <div class="span12 text-center">
-            <h3><strong>Luxury Yachts</strong> - <span><em>Hand Built In Holland.</em></span></h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  
+
   <!--Services Section-->
   <section id="services" class="three-boxes-front">
+      
     <div class="container">
+        <div id="hide">Hide</hide>
       <div class="row-fluid">
         
         <!--Service Section One-->
@@ -64,7 +52,24 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
       </div>
     </div>
   </section>
+   
+
+  <!--hand built-->
+  <section id="well">
+    <div class="well well-large">
+      <div class="container">
+        <div class="row-fluid">
+          <div class="span12 text-center">
+            <h3><strong>Luxury Yachts</strong> - <span><em>Hand Built In Holland.</em></span></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   
+  
+
+    <?php /*
   
   <!--Message Section-->
   <section id="message">
@@ -82,9 +87,10 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
   <section id="clients"> 
         <img src="img/generic/glasses.jpg" >
   </section>
-  
+  */ ?>
   
 <?php include 'templates/footer.php'; ?>
+   	
 
  <?php /*
 
@@ -119,3 +125,6 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
 	} 
 	
 */ ?>
+
+  
+ 

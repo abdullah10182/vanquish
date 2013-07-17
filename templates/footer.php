@@ -61,7 +61,10 @@
     <script src="/vanquish/js/main.js"></script>
     <script src="/vanquish/js/rotate.js"></script>
     <script src="/vanquish/js/jquery.colorbox-min.js"></script>
-
+    <script src="/vanquish/js/jquery.mobile.customized.min.js"></script>
+    <script src="/vanquish/js/jquery.easing.1.3.js"></script>
+    <script src="/vanquish/js/camera.min.js"></script>
+     <script src="/vanquish/js/custom.js"></script>
 
     
     <script>
@@ -73,6 +76,26 @@
         })
       }(window.jQuery)
     </script>
+    
+        
+    <script>
+		jQuery(function(){
+			
+		jQuery('#camera_wrap_1').camera({
+			thumbnails: false,
+                        pagination: false,
+                        onEndTransition: function() {
+                           jQuery('#services').show().animate({bottom:'40px'},1000, function(){
+                         });  
+                        }
+                                
+		});
+
+	
+		});
+	</script>
+    
+  
    
     </body>
 </html>
