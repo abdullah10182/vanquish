@@ -67,34 +67,7 @@
      <script src="/vanquish/js/custom.js"></script>
 
     
-    <script>
-      !function ($) {
-        $(function(){
-          $('#header').carousel({
-              interval:6000
-          })
-        })
-      }(window.jQuery)
-    </script>
-    
-        
-    <script>
-		jQuery(function(){
-			
-		jQuery('#camera_wrap_1').camera({
-			thumbnails: false,
-                        pagination: false,
-                        onEndTransition: function() {
-                           jQuery('#services').show().animate({bottom:'40px'},1000, function(){
-                         });  
-                        }
-                                
-		});
 
-	
-		});
-	</script>
-    
   
    
     </body>

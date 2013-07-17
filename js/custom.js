@@ -1,7 +1,31 @@
-		jQuery(function(){
-			
-                    $('#hide').click(function() {
-                        $("#services").slideUp();
-                    });
-	
-		});
+
+   
+   jQuery(function(){
+
+    jQuery('#camera_wrap_1').camera({
+            thumbnails: false,
+            pagination: false,
+            onEndTransition: function() {
+               jQuery('#services').show().animate({bottom:'40px'},1000, function(){
+             });  
+            }
+
+        });
+    
+    
+    
+                    
+
+    });
+    
+
+
+
+
+jQuery(function(){
+
+    $('#hide').click(function() {
+        $("#services").slideUp();
+    });
+
+});

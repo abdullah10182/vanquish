@@ -28,40 +28,33 @@
       </div>
       
   
-      <div class="row-fluid">
-        <div class="span8" style="position:relative;">
-            <a class="left carousel-control" href="#work" data-slide="prev"><i class="icon-angle-left"></i></a>
-            <a class="right carousel-control" href="#work" data-slide="next"><i class="icon-angle-right"></i></a>
-            
-          <div id="work" class="carousel slide">
-            <div class="carousel-inner">
-                
+    <div class="row-fluid">
+    <div class="span8" style="position:relative;">
+
+         <div class="camera_wrap camera_azure_skin" id="camera2">
+      
+         <div class="product_image" data-thumb="/vanquish/img/products/vq32-side-view-t.jpg" data-src="/vanquish/img/products/vq32-side-view.jpg" >
+             <div class="camera_caption fadeFromBottom">
+             Side view <a href="/vanquish/img/products/vq32-side-view-large.jpg" class="product_image view_large"><i class=" icon-fullscreen"></i> View large</a>
+             </div>
+         </div>
+      
+             <div class="product_image" data-thumb="/vanquish/img/products/vq32-top-view-t.jpg" data-src="/vanquish/img/products/vq32-top-view.jpg" >
+             <div class="camera_caption fadeFromBottom">
+             Top view<a href="/vanquish/img/products/vq32-top-view-large.jpg" class="product_image view_large"><i class=" icon-fullscreen"></i> View large</a>
+           </div>
+         </div>
          
-              
-              <!--Item One-->
-              <div class="item active">
-                <a class="product-image" href="/vanquish/img/products/vq32-side-view-large.jpg" title="Vanquish Yachts">
-                <img src="/vanquish/img/products/vq32-side-view.jpg" alt="Title">
-                </a>
-              </div>
-              
-              <!--Item Two-->
-               <div class="item">
-                <a class="product-image" href="/vanquish/img/products/vq32-top-view-large.jpg" title="Vanquish Yachts">
-                <img src="/vanquish/img/products/vq32-top-view.jpg" alt="Title">
-                </a>
-              </div>
-              
-              <!--Item Three-->
-              <div class="item">
-                <a class="product-image" href="/vanquish/img/products/vq32-top-sec-view-large.jpg" title="Vanquish Yachts">
-                <img src="/vanquish/img/products/vq32-top-sec-view.jpg" alt="Title">
-                </a>
-              </div>
-              
-            </div>
-     
-          </div><!-- /.carousel -->      
+           <div class="product_image" data-thumb="/vanquish/img/products/vq32-top-sec-view-t.jpg" data-src="/vanquish/img/products/vq32-top-sec-view.jpg" >
+             <div class="camera_caption fadeFromBottom">
+            Top view interior <a href="/vanquish/img/products/vq32-top-sec-view-large.jpg" class="product_image view_large"><i class=" icon-fullscreen"></i> View large</a>
+           </div>
+         </div>
+   
+        </div><!-- #camera_wrap_1 -->
+
+   
+    
 
         </div>
         
@@ -87,39 +80,7 @@
     </div>
   </section>  
   
-    	<p>Thumbnails with fixed height</p>
-        <div class="camera_wrap camera_magenta_skin" id="camera_wrap_2">
-            <div data-thumb="../images/slides/thumbs/bridge.jpg" data-src="../images/slides/bridge.jpg">
-                <div class="camera_caption fadeFromBottom">
-                    Camera is a responsive/adaptive slideshow. <em>Try to resize the browser window</em>
-                </div>
-            </div>
-            <div data-thumb="../images/slides/thumbs/leaf.jpg" data-src="../images/slides/leaf.jpg">
-                <div class="camera_caption fadeFromBottom">
-                    It uses a light version of jQuery mobile, <em>navigate the slides by swiping with your fingers</em>
-                </div>
-            </div>
-            <div data-thumb="../images/slides/thumbs/road.jpg" data-src="../images/slides/road.jpg">
-                <div class="camera_caption fadeFromBottom">
-                    <em>It's completely free</em> (even if a donation is appreciated)
-                </div>
-            </div>
-            <div data-thumb="../images/slides/thumbs/sea.jpg" data-src="../images/slides/sea.jpg">
-                <div class="camera_caption fadeFromBottom">
-                    Camera slideshow provides many options <em>to customize your project</em> as more as possible
-                </div>
-            </div>
-            <div data-thumb="../images/slides/thumbs/shelter.jpg" data-src="../images/slides/shelter.jpg">
-                <div class="camera_caption fadeFromBottom">
-                    It supports captions, HTML elements and videos and <em>it's validated in HTML5</em> (<a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.pixedelic.com%2Fplugins%2Fcamera%2F&amp;charset=%28detect+automatically%29&amp;doctype=Inline&amp;group=0&amp;user-agent=W3C_Validator%2F1.2" target="_blank">have a look</a>)
-                </div>
-            </div>
-            <div data-thumb="../images/slides/thumbs/tree.jpg" data-src="../images/slides/tree.jpg">
-                <div class="camera_caption fadeFromBottom">
-                    Different color skins and layouts available, <em>fullscreen ready too</em>
-                </div>
-            </div>
-        </div><!-- #camera_wrap_2 -->
+
   
 
   
@@ -130,8 +91,22 @@
    include_once($path_header);
  ?>
   
-  <script>
+<script>
       //Gallery
-    $(".product-image").colorbox({rel:'gallery_01', transition:"elastic", width:"80%", opacity:".5"});
+    $(".product_image").colorbox({rel:'gallery_01', transition:"elastic", width:"80%", opacity:".5"});
     
-  </script>  
+  
+    
+        jQuery('#camera2').camera({
+                height: '400px',
+                loader: false,
+                pagination: false,
+                thumbnails: true,
+                navigation: false,
+                playPause: false,
+                fx: 'scrollHorz'
+  
+        });
+                    
+
+    </script>
