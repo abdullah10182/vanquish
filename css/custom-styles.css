@@ -159,3 +159,7 @@ max-width: 1170px;
 .service-box {
 border-bottom: 7px solid rgba(177, 173, 116, 1);
 }
+
+.camera_wrap{
+    min-height: 400px;
+}
