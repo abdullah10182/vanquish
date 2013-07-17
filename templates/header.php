@@ -54,7 +54,7 @@ else $page="home";
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Boats <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Vanquish VQ32</a></li>
+                  <li><a href="/vanquish/pages/vanquish-vq32.php?page=vanquish-VQ32">Vanquish VQ32</a></li>
                   <li><a href="#">Vanquish VQ40</a></li>
                   <li><a href="#">Vanquish VQ60</a></li>
                 </ul>
