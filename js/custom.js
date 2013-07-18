@@ -7,6 +7,7 @@
             pagination: false,
             fx: "scrollBottom", 
             transPeriod: 2000,
+            opacityOnGrid: false,
             onEndTransition: function() {
                jQuery('#services').show().animate({bottom:'40px'},1000, function(){
              });  
