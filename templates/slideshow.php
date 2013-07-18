@@ -46,7 +46,7 @@
   
         <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
          <div data-thumb="../images/slides/thumbs/bridge.jpg" data-src="/vanquish/img/slides/slide-01.jpg"></div>
-         <div data-thumb="../images/slides/thumbs/bridge.jpg" data-src="/vanquish/img/slides/slide-01.jpg"></div>
+         <div data-thumb="../images/slides/thumbs/bridge.jpg" data-src="/vanquish/img/slides/slide-02.jpg"></div>
    
      
         </div><!-- #camera_wrap_1 -->
