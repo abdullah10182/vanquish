@@ -13,12 +13,21 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
    include_once($path_slide); 
  ?>
 
+    <div id="loading" style=" z-index:-1; margin: 20% auto 0; width: 220px; position: absolute; left:50%; margin-left:-110px;"><span><img src='/vanquish/img/generic/ajax-loader.gif'></span>loading...</div>
+      <div id="controls">
+            <div class="hide_control">Full Screen</div>
+            <div class="pause">pause</div>
+            <div class="play">play</div>
+            <div class="prev">prev</div>
+            <div class="next">next</div>
+            <div class="counter"></div>
+        </div>
+
 
   <!--Services Section-->
   <section id="services" class="three-boxes-front">
       
     <div class="container">
-        <div id="hide">Hide</hide>
       <div class="row-fluid">
         
         <!--Service Section One-->
@@ -59,9 +68,9 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
     <div class="well well-large">
       <div class="container">
         <div class="row-fluid">
-          <div class="span12 text-center">
+
             <h3><strong>Luxury Yachts</strong> - <span><em>Hand Built In Holland.</em></span></h3>
-          </div>
+
         </div>
       </div>
     </div>
@@ -89,7 +98,7 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
   </section>
   */ ?>
   
-<?php include 'templates/footer.php'; ?>
+
    	
 
  <?php /*
@@ -125,6 +134,41 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
 	} 
 	
 */ ?>
+
+  	<script type="text/javascript">
+		$(function(){
+
+		$.mbBgndGallery.buildGallery({
+				//containment:"#wrapper",
+                                containment:"body",
+				effect:{enter:{transform:"scale("+(1+ Math.random()*2)+")",opacity:0},exit:{transform:"scale("+(Math.random()*2)+")",opacity:0}},
+				timer:7000,
+				effTimer:3000,
+				controls:"#controls",
+				raster:"img/generic/raster.png",
+				folderPath:"img/slides/",
+				images:[
+
+					"img/slides/slide-01.jpg",
+                                        "img/slides/slide-02.jpg",
+                                        "img/slides/slide-03.jpg",
+                                        "img/slides/slide-04.jpg",
+                                        "img/slides/slide-05.jpg"
+                                        
+				],
+				onPlay:function(){
+				$("#loading").hide();
+                                showServicesBlocks();
+
+				
+				},
+				onPause:function(){$("#controls .play").show();$("#controls .pause").hide();},
+				onPrev:function(o){o.effect={enter:{top:"-120%",opacity:1},exit:{top:"120%",opacity:0}}}
+			})
+
+		
+		});
+	</script>
 
   
  

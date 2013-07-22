@@ -49,26 +49,7 @@
         </div>
     </div>
 </section>
-  
-  
-      
-    <!-- Javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="/vanquish/js/jquery-1.9.1.min.js"><\/script>')</script>
-    <script src="/vanquish/js/bootstrap.min.js"></script>
-    <script src="/vanquish/js/main.js"></script>
-    <script src="/vanquish/js/rotate.js"></script>
-    <script src="/vanquish/js/jquery.colorbox-min.js"></script>
-    <script src="/vanquish/js/jquery.mobile.customized.min.js"></script>
-    <script src="/vanquish/js/jquery.easing.1.3.js"></script>
-    <script src="/vanquish/js/camera.min.js"></script>
-     <script src="/vanquish/js/custom.js"></script>
-
-    
-
-  
    
+
     </body>
 </html>
