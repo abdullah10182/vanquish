@@ -6,6 +6,7 @@ if(isset($_GET['page'])){
 else $page="home";
 
 $ie = false;
+$ie_10= false;
 $ie_old= false;
 preg_match('/MSIE (.*?);/', $_SERVER['HTTP_USER_AGENT'], $matches);
 
@@ -19,8 +20,8 @@ if (count($matches)>1){
       $ie_old =true;
       break;
 
-    case ($version==9):
-      //IE9!
+    case ($version==10):
+      $ie_10= true;
       break;
 
     default:
@@ -75,36 +76,7 @@ if (count($matches)>1){
 
   <link rel="shortcut icon" href="/favicon.png">
   
-  
-    	<script type="text/javascript">
-		$(function(){
-
-		$.mbBgndGallery.buildGallery({
-				//containment:"#wrapper",
-                                containment:"body",
-                                <?php if ($ie == false){ ?>			
-                                   effect:{enter:{transform:"scale("+(1+ Math.random()*2)+")",opacity:0},exit:{transform:"scale("+(Math.random()*2)+")",opacity:0}},
-                                <?php } ?>
-				timer:7000,
-				effTimer:3000,
-				controls:"#controls",
-				raster:"img/generic/raster.png",
-                                autoStart: true,
-				images:[
-					"img/slides/slide-01.jpg",
-                                        "img/slides/slide-02.jpg",
-                                        "img/slides/slide-03.jpg",
-                                        "img/slides/slide-04.jpg",
-                                        "img/slides/slide-05.jpg"        
-				],
-                                
-				onStart:function(opt){ showServicesBlocks();},
-                                onPlay:function(opt){$("#loading").hide(); }
-			})
-
-		
-		});
-	</script>
+ 
 </head>
 
 <body class="<?php echo $page; ?>">

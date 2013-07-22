@@ -140,5 +140,36 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
 */ ?>
 
 
+
+    	<script type="text/javascript">
+		$(function(){
+
+		$.mbBgndGallery.buildGallery({
+				//containment:"#wrapper",
+                                containment:"body",
+                                <?php if (($ie == false)||($ie_10==true)) { ?>			
+                                   effect:{enter:{transform:"scale("+(1+ Math.random()*2)+")",opacity:0},exit:{transform:"scale("+(Math.random()*2)+")",opacity:0}},
+                                <?php } ?>
+				timer:7000,
+				effTimer:3000,
+				controls:"#controls",
+				raster:"img/generic/raster.png",
+                                autoStart: true,
+				images:[
+					"img/slides/slide-01.jpg",
+                                        "img/slides/slide-02.jpg",
+                                        "img/slides/slide-03.jpg",
+                                        "img/slides/slide-04.jpg",
+                                        "img/slides/slide-05.jpg"        
+				],
+                                
+				onStart:function(opt){ showServicesBlocks();},
+                                onPlay:function(opt){$("#loading").hide(); }
+			})
+
+		
+		});
+	</script>
+
   
  
