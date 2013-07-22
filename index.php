@@ -139,15 +139,12 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
 	
 */ ?>
 
-<<<<<<< HEAD
+
 
 
     	<script type="text/javascript">
-=======
-<<<<<<< HEAD
-=======
-  	<script type="text/javascript">
->>>>>>> b4db490bc9430c22ce33e93c68f65d127412d6f4
+
+  	
 		$(function(){
 
 		$.mbBgndGallery.buildGallery({
@@ -176,10 +173,6 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
 		
 		});
 	</script>
-<<<<<<< HEAD
-=======
->>>>>>> 63dca3c5ce6dbd90829dac1e35bd0a29cc905487
->>>>>>> b4db490bc9430c22ce33e93c68f65d127412d6f4
 
   
  
