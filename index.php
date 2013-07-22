@@ -139,6 +139,43 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
 	
 */ ?>
 
+<<<<<<< HEAD
+=======
+  	<script type="text/javascript">
+		$(function(){
+
+		$.mbBgndGallery.buildGallery({
+				//containment:"#wrapper",
+                                containment:"body",
+                                <?php if ($ie == false){ ?>			
+                                   effect:{enter:{transform:"scale("+(1+ Math.random()*2)+")",opacity:0},exit:{transform:"scale("+(Math.random()*2)+")",opacity:0}},
+                                <?php } ?>
+				timer:7000,
+				effTimer:3000,
+				controls:"#controls",
+				raster:"img/generic/raster.png",
+				folderPath:"img/slides/",
+				images:[
+
+					"img/slides/slide-01.jpg",
+                                        "img/slides/slide-02.jpg",
+                                        "img/slides/slide-03.jpg",
+                                        "img/slides/slide-04.jpg",
+                                        "img/slides/slide-05.jpg"
+                                        
+				],
+				onPlay:function(){
+				$("#loading").hide();
+                                showServicesBlocks();				
+				},
+				onPause:function(){$("#controls .play").show();$("#controls .pause").hide();},
+				onPrev:function(o){o.effect={enter:{top:"-120%",opacity:1},exit:{top:"120%",opacity:0}}}
+			})
+
+		
+		});
+	</script>
+>>>>>>> 63dca3c5ce6dbd90829dac1e35bd0a29cc905487
 
   
  
