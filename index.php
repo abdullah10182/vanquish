@@ -13,6 +13,10 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
    include_once($path_slide); 
  ?>
 
+
+
+
+
     <div id="loading" style=" z-index:-1; margin: 20% auto 0; width: 220px; position: absolute; left:50%; margin-left:-110px;"><span><img src='/vanquish/img/generic/ajax-loader.gif'></span>loading...</div>
       <div id="controls">
             <div class="hide_control">Full Screen</div>
@@ -135,40 +139,6 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
 	
 */ ?>
 
-  	<script type="text/javascript">
-		$(function(){
-
-		$.mbBgndGallery.buildGallery({
-				//containment:"#wrapper",
-                                containment:"body",
-				effect:{enter:{transform:"scale("+(1+ Math.random()*2)+")",opacity:0},exit:{transform:"scale("+(Math.random()*2)+")",opacity:0}},
-				timer:7000,
-				effTimer:3000,
-				controls:"#controls",
-				raster:"img/generic/raster.png",
-				folderPath:"img/slides/",
-				images:[
-
-					"img/slides/slide-01.jpg",
-                                        "img/slides/slide-02.jpg",
-                                        "img/slides/slide-03.jpg",
-                                        "img/slides/slide-04.jpg",
-                                        "img/slides/slide-05.jpg"
-                                        
-				],
-				onPlay:function(){
-				$("#loading").hide();
-                                showServicesBlocks();
-
-				
-				},
-				onPause:function(){$("#controls .play").show();$("#controls .pause").hide();},
-				onPrev:function(o){o.effect={enter:{top:"-120%",opacity:1},exit:{top:"120%",opacity:0}}}
-			})
-
-		
-		});
-	</script>
 
   
  

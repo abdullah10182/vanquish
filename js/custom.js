@@ -48,10 +48,14 @@ jQuery(function(){
 
 function showServicesBlocks(){
     // jQuery('#services').show().animate({bottom:'140px'},1000, function(){ }); 
-       $('#controls').fadeIn(1000);
+    $('#controls').fadeIn(1000);
  
     if (slideShowStarted==false){
      $('#services').slideDown(1000);
     }
+    
+
     slideShowStarted = true;
+     
 }
+
