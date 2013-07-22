@@ -145,7 +145,7 @@ max-width: 1170px;
     bottom: 0px;
     padding: 0;
     margin: 0;
-    bottom: -100px;
+    bottom: 130px;
     display: none;
 }
 
@@ -172,3 +172,64 @@ border-bottom: 7px solid rgba(177, 173, 116, 1);
     float: right;
     color:#B1AD74;
 }
+
+/* well --------*/
+.home #well {
+    position: absolute;
+    bottom: 0;
+   width: 100%;
+   text-align: center;  
+}
+
+.home .well {
+    margin: 0;
+}
+
+
+/*controls slider home*/
+#controls {
+    z-index: 1;
+    margin-top: 120px;
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    display: none;
+}
+        
+#controls div{
+            display:inline-block;
+            padding:5px;
+            margin:1px;
+            color:#fff;
+            border:1px solid #fff;
+            -moz-border-radius:4px;
+            -webkit-border-radius:4px;
+            -o-border-radius:4px;
+            border-radius:4px;
+        }
+
+        #controls div:hover:not(.counter){
+            background:rgba(255,255,255,.9);
+            color:#000;
+        }
+
+        #controls div:not(.counter){
+            background: #B1AD74;
+            cursor:pointer;
+        }
+
+        #controls.fullScreen_controls div:hover:not(.counter){
+            background:rgba(255,255,255,.9);
+            color:#000;
+        }
+
+        #controls.fullScreen_controls div:not(.counter){
+            background: rgba(0, 0, 0, 0.82);
+            cursor:pointer;
+        }
+
+        #controls div.sel{
+            background:rgba(255,255,255,.9);
+        }
+
+	

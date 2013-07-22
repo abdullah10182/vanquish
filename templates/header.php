@@ -27,18 +27,34 @@ else $page="home";
   <link rel="stylesheet" href="/vanquish/css/bootstrap.min.css">
   <link rel="stylesheet" href="/vanquish/css/main.css">
   <link rel="stylesheet" href="/vanquish/css/colorbox.css" />
-    <link rel="stylesheet" href="/vanquish/css/camera.css">
+  <link rel="stylesheet" href="/vanquish/css/camera.css">
   <link rel="stylesheet" href="/vanquish/css/custom-styles.css">
   
 
-  <script src="/vanquish/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+      <!-- Javascript
+    ================================================== -->
+    <script src="/vanquish/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/vanquish/js/jquery-1.9.1.min.js"><\/script>')</script>
+    <script src="/vanquish/js/bootstrap.min.js"></script>
+    <script src="/vanquish/js/main.js"></script>
+    <script src="/vanquish/js/rotate.js"></script>
+    <script src="/vanquish/js/jquery.colorbox-min.js"></script>
+    <script src="/vanquish/js/jquery.mobile.customized.min.js"></script>
+    <script src="/vanquish/js/jquery.easing.1.3.js"></script>
+    <script src="/vanquish/js/camera.min.js"></script>
+    <script src="/vanquish/js/mb.bgndGallery.js"></script>
+     <script src="/vanquish/js/custom.js"></script>
+
+    
 
 
   <link rel="shortcut icon" href="/favicon.png">
 </head>
 
-<body>
-        
+<body class="<?php echo $page; ?>">
+    
   <div class="navbar navbar-inverse navbar-fixed-top animated fadeInDownBig">
     <div class="navbar-inner">
       <div class="container">

@@ -40,7 +40,7 @@
     <a class="right carousel-control hidden-phone" href="#header" data-slide="next"><i class="icon-angle-right"></i></a>
   </div><!-- /.carousel -->
    * 
-   */ ?>
+ 
 
 
   
@@ -57,3 +57,6 @@
 
   
     </div><!-- .fluid_container -->
+      */ ?>
+
+ 
