@@ -141,7 +141,9 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
 		$.mbBgndGallery.buildGallery({
 				//containment:"#wrapper",
                                 containment:"body",
-				effect:{enter:{transform:"scale("+(1+ Math.random()*2)+")",opacity:0},exit:{transform:"scale("+(Math.random()*2)+")",opacity:0}},
+                                <?php if ($ie == false){ ?>			
+                                   effect:{enter:{transform:"scale("+(1+ Math.random()*2)+")",opacity:0},exit:{transform:"scale("+(Math.random()*2)+")",opacity:0}},
+                                <?php } ?>
 				timer:7000,
 				effTimer:3000,
 				controls:"#controls",
@@ -158,9 +160,7 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
 				],
 				onPlay:function(){
 				$("#loading").hide();
-                                showServicesBlocks();
-
-				
+                                showServicesBlocks();				
 				},
 				onPause:function(){$("#controls .play").show();$("#controls .pause").hide();},
 				onPrev:function(o){o.effect={enter:{top:"-120%",opacity:1},exit:{top:"120%",opacity:0}}}

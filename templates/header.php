@@ -4,6 +4,29 @@ if(isset($_GET['page'])){
     $page = $_GET['page'];
 }
 else $page="home";
+
+$ie = false;
+$ie_old= false;
+preg_match('/MSIE (.*?);/', $_SERVER['HTTP_USER_AGENT'], $matches);
+
+if (count($matches)>1){
+  //Then we're using IE
+  $ie = true;
+  $version = $matches[1];
+  
+  switch(true){
+    case ($version<=8):
+      $ie_old =true;
+      break;
+
+    case ($version==9):
+      //IE9!
+      break;
+
+    default:
+      //You get the idea
+  }
+}
 ?>
 <!DOCTYPE html>
 <html lang="en"><head>
