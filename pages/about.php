@@ -40,7 +40,7 @@
               <br />
           
         </div>
-   
+         
       
     
         
@@ -73,6 +73,21 @@
                 </div>
             </div>    
         </div>
+        
+             <div class="span12" style="margin-left: 0;">
+              <h2>VQ Line</h2>
+              <p>The vanquish VQ model line is an exceptionally  performance motor cruiser, 
+              Vanquish provides beautiful, comfortable accommodation for  guests while allowing 
+              them to enjoy the excitement of its high top speed. A fully enclosed superstructure 
+              creates an indoor living space with all the hallmarks of Vanquish simplicity in design, 
+              leading to an aft social and dining space that enables guests to make the most of the
+              sea and surroundings. An additional front deck with a big sun deck  area affords guests 
+              a degree of relaxing, particularly when in open sea on cruising speed , and provides a
+              thrilling vantage point from which to appreciate this boat's awesome dynamics.</p>
+          
+         <p> All yachts in our VQ line have the latest TDI diesel engines from Mercury. These motors have a low fuel consumption 
+             and fast and responsive acceleration with a top speed of 40+ knots</p>
+          </div>
  
    </div>  
         <br/>
