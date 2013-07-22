@@ -28,14 +28,15 @@
               and applying the latest engineering technologies we manufacture standard line yachts 
               and customer specific yachts to suit any needs.</p>
           
-          <p> Located in the Netherlands, Vanquish Yachts is a company which builds high-end yachts 
-              with passion and innovation, this certainly reflects in our products. The Netherlands 
+          <p> Located in the Netherlands, Vanquish Yachts is a company that builds exclusivity yachts  with passion and knowledge,
+              this certainly reflects in our products. The Netherlands 
               is known to be one of the most famous yacht building countries of the world. Some of 
               the best yachts out there on the market or manufactured by the Dutch and Vanquish Yachts 
               is no exception. We strive to stand out among our competition by delivering the highest 
               quality product out there. <p>
               
-              <p>Distinguish yourself with a unique product that excels above the rest; distinguish yourself with a hand built high-end performance machine that only Vanquish Yachts can deliver. </p>
+              <p>Distinguish yourself with a unique product that excels above the rest;
+                  distinguish yourself with a hand built high-end performance yacht that only Vanquish can deliver. </p>
               <br />
           
         </div>

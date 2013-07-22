@@ -158,6 +158,7 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
 				controls:"#controls",
 				raster:"img/generic/raster.png",
                                 autoStart: true,
+                                shuffle: true,
 				images:[
 					"img/slides/slide-01.jpg",
                                         "img/slides/slide-02.jpg",
