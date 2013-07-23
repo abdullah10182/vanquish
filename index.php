@@ -14,9 +14,6 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
  ?>
 
 
-
-
-
     <div id="loading" style=" z-index:-1; margin: 20% auto 0; width: 220px; position: absolute; left:50%; margin-left:-110px;"><span><img src='/vanquish/img/generic/ajax-loader.gif'></span>loading...</div>
       <div id="controls">
             <div class="hide_control">Full Screen</div>
@@ -80,6 +77,9 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
     </div>
   </section>
   
+
+
+    
   
 
     <?php /*

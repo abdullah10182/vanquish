@@ -1440,6 +1440,7 @@ body {
 
 body {
     padding-left: 0px;
+
     padding-right: 0px;
 }
 
@@ -1469,6 +1470,8 @@ body {
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
     background-image: none;
 }
+
+
 
 
 #content {

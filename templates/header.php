@@ -80,7 +80,6 @@ if (count($matches)>1){
 </head>
 
 <body class="<?php echo $page; ?>">
-    
   <div class="navbar navbar-inverse navbar-fixed-top animated fadeInDownBig">
     <div class="navbar-inner">
       <div class="container">
