@@ -123,7 +123,7 @@
     <div class="container">
       <div class="row-fluid">
         <div class="span12 text-center">
-          <h2>"Distinguish yourself with a hand built high-end performance machine that only Vanquish Yachts can deliver"</h2>
+            <h2>"Distinguish yourself with a hand built high-end performance yacht that only Vanquish can deliver."</h2>
         </div>
       </div>
     </div>
