@@ -35,7 +35,7 @@ if (count($matches)>1){
   <title>Vanquish Yachts | <?php echo ucfirst($page); ?></title>
   <meta name="keywords" content="Vanquish yachts">
   <meta name="description" content="">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
   <meta property="og:title" content="Vanquish | Designed By Triangon">
 	<meta property="og:type" content="website">

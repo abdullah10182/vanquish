@@ -36,7 +36,7 @@ jQuery(function(){
             else if ($('.hide_control').html()=="Show"){
             $(".hide_control").html("Full Screen");
             console.log('else');
-                $("#controls").css("margin-top","120px");
+            //    $("#controls").css("margin-top","120px");
             }
         });
         
@@ -48,7 +48,7 @@ jQuery(function(){
 
 function showServicesBlocks(){
     // jQuery('#services').show().animate({bottom:'140px'},1000, function(){ }); 
-    $('#controls').fadeIn(1000);
+    $('#controls').fadeIn(3000);
  
     if (slideShowStarted==false){
      $('#services').slideDown(1000);
