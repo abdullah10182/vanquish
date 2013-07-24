@@ -35,7 +35,7 @@
     $email_content .= "Message:\n\n$message"; 
          
     // send the email 
-    mail ("abdullah10182@gmail.com", "New Contact Message", $email_content); 
+    mail ("tom.steentjes@vanquish-yachts.com", "New Contact Message", $email_content); 
          
     // send the user back to the form 
     header('Location: contact.php?s='.urlencode('Thank you for your message.')); exit;  
