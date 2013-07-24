@@ -1,6 +1,6 @@
 <?php 
    $path_header = $_SERVER['DOCUMENT_ROOT'];
-   $path_header .= "/vanquish/templates/header.php";
+   $path_header .= "/templates/header.php";
    include_once($path_header);
 
 ?>
@@ -33,21 +33,21 @@
 
          <div class="camera_wrap camera_azure_skin" id="camera2">
       
-         <div class="product_image" data-thumb="/vanquish/img/products/vq40-side-view-t.jpg" data-src="/vanquish/img/products/vq40-side-view.jpg" >
+         <div class="product_image" data-thumb="/img/products/vq40-side-view-t.jpg" data-src="/img/products/vq40-side-view.jpg" >
              <div class="camera_caption fadeFromBottom">
-             Side view <a href="/vanquish/img/products/vq40-side-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
+             Side view <a href="/img/products/vq40-side-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
              </div>
          </div>
       
-          <div class="product_image" data-thumb="/vanquish/img/products/vq40-top-view-t.jpg" data-src="/vanquish/img/products/vq40-top-view.jpg" >
+          <div class="product_image" data-thumb="/img/products/vq40-top-view-t.jpg" data-src="/img/products/vq40-top-view.jpg" >
              <div class="camera_caption fadeFromBottom">
-             Top view<a href="/vanquish/img/products/vq40-top-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
+             Top view<a href="/img/products/vq40-top-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
            </div>
          </div>
          
-           <div class="product_image" data-thumb="/vanquish/img/products/vq40-top-sec-view-t.jpg" data-src="/vanquish/img/products/vq40-top-sec-view.jpg" >
+           <div class="product_image" data-thumb="/img/products/vq40-top-sec-view-t.jpg" data-src="/img/products/vq40-top-sec-view.jpg" >
              <div class="camera_caption fadeFromBottom">
-            Top view interior <a href="/vanquish/img/products/vq40-top-sec-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
+            Top view interior <a href="/img/products/vq40-top-sec-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
            </div>
          </div>
    
@@ -87,7 +87,7 @@
   
 <?php 
    $path_header = $_SERVER['DOCUMENT_ROOT'];
-   $path_header .= "/vanquish/templates/footer.php";
+   $path_header .= "/templates/footer.php";
    include_once($path_header);
  ?>
   

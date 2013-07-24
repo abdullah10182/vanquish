@@ -1,6 +1,6 @@
 <?php 
    $path_header = $_SERVER['DOCUMENT_ROOT'];
-   $path_header .= "/vanquish/templates/header.php";
+   $path_header .= "/templates/header.php";
    include_once($path_header);
 
 ?>
@@ -54,12 +54,12 @@
   
   <!--glasses front page-->
   <section id="clients"> 
-        <img src="/vanquish/img/generic/gallery-footer-02.jpg" >
+        <img src="/img/generic/gallery-footer-02.jpg" >
   </section>
   
   
 <?php 
    $path_header = $_SERVER['DOCUMENT_ROOT'];
-   $path_header .= "/vanquish/templates/footer.php";
+   $path_header .= "/templates/footer.php";
    include_once($path_header);
  ?>

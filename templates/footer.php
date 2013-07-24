@@ -11,7 +11,7 @@
               utmost quality and reliability. Working together with the countries best designers 
               and applying the latest engineering technologies we manufacture standard line yachts 
               and customer specific yachts to suit any needs.</p><br />
-            <a class="more" href="/vanquish/pages/about.php?page=about">+ More</a>
+            <a class="more" href="/pages/about.php?page=about">+ More</a>
         </div>
         
         <!--Bottom Section Two-->
@@ -44,7 +44,7 @@
             </div>
 
             <div class="span8 text-right">
-                 <a class="facebook" href="http://www.facebook.com/VanquishYachts" target="_blank"><img src="/vanquish/img/generic/facebook.png"></a>
+                 <a class="facebook" href="http://www.facebook.com/VanquishYachts" target="_blank"><img src="/img/generic/facebook.png"></a>
             </div>
         </div>
     </div>

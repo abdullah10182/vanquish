@@ -5,16 +5,16 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
 
 <?php 
    $path_header = $_SERVER['DOCUMENT_ROOT'];
-   $path_header .= "/vanquish/templates/header.php";
+   $path_header .= "/templates/header.php";
    include_once($path_header);
 
    $path_slide = $_SERVER['DOCUMENT_ROOT'];
-   $path_slide .= "/vanquish/templates/slideshow.php";
+   $path_slide .= "/templates/slideshow.php";
    include_once($path_slide); 
  ?>
 
 
-    <div id="loading" style=" z-index:-1; margin: 20% auto 0; width: 220px; position: absolute; left:50%; margin-left:-110px;"><span><img src='/vanquish/img/generic/ajax-loader.gif'></span>loading...</div>
+    <div id="loading" style=" z-index:-1; margin: 20% auto 0; width: 220px; position: absolute; left:50%; margin-left:-110px;"><span><img src='/img/generic/ajax-loader.gif'></span>loading...</div>
       <div id="controls">
             <div class="hide_control">Full Screen</div>
             <div class="pause">pause</div>
@@ -33,7 +33,7 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
         
         <!--Service Section One-->
         <div class="span4 text-center service-box">
-          <a href="/vanquish/pages/about.php?page=about">
+          <a href="/pages/about.php?page=about">
              <img src="img/generic/design-icon.png">
             <h2>Innovative & Graceful Design</h2>
             <p>Vanquish Yachts works together with the best yacht designers and interior architects to provide a unique product.</p>
@@ -42,7 +42,7 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
         
         <!--Service Section Two-->
         <div class="span4 text-center service-box">
-          <a href="/vanquish/pages/about.php?page=about">
+          <a href="/pages/about.php?page=about">
             <img src="img/generic/saling-icon.png">
             <h2>Passion for Performance</h2>
              <p>High tech engineering translating into fast, adaptable and fuel efficient yachts. </p>
@@ -51,7 +51,7 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
         
         <!--Service Section Three-->
         <div class="span4 text-center service-box">
-          <a href="/vanquish/pages/about.php?page=about">
+          <a href="/pages/about.php?page=about">
              <img src="img/generic/material-icon.png">
             <h2>Superior Material Characteristics</h2>
             <p>Latest manufacturing techniques using seaworthy aluminum and high quality carbon fiber.</p>

@@ -44,32 +44,32 @@ if (count($matches)>1){
 	<meta property="og:description" content="">
 
   <!-- Styles -->
-  <link rel="stylesheet" href="/vanquish/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/vanquish/css/animate.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/animate.css">
   <link href='http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" href="/vanquish/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/vanquish/css/main.css">
-  <link rel="stylesheet" href="/vanquish/css/colorbox.css" />
-  <link rel="stylesheet" href="/vanquish/css/camera.css">
-  <link rel="stylesheet" href="/vanquish/css/custom-styles.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/colorbox.css" />
+  <link rel="stylesheet" href="/css/camera.css">
+  <link rel="stylesheet" href="/css/custom-styles.css">
   
 
 
       <!-- Javascript
     ================================================== -->
-    <script src="/vanquish/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <script src="/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="/vanquish/js/jquery-1.9.1.min.js"><\/script>')</script>
-    <script src="/vanquish/js/bootstrap.min.js"></script>
-    <script src="/vanquish/js/main.js"></script>
-    <script src="/vanquish/js/rotate.js"></script>
-    <script src="/vanquish/js/jquery.colorbox-min.js"></script>
-    <script src="/vanquish/js/jquery.mobile.customized.min.js"></script>
-    <script src="/vanquish/js/jquery.easing.1.3.js"></script>
-    <script src="/vanquish/js/camera.min.js"></script>
-    <script src="/vanquish/js/mb.bgndGallery.js"></script>
-     <script src="/vanquish/js/custom.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/jquery-1.9.1.min.js"><\/script>')</script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/rotate.js"></script>
+    <script src="/js/jquery.colorbox-min.js"></script>
+    <script src="/js/jquery.mobile.customized.min.js"></script>
+    <script src="/js/jquery.easing.1.3.js"></script>
+    <script src="/js/camera.min.js"></script>
+    <script src="/js/mb.bgndGallery.js"></script>
+     <script src="/js/custom.js"></script>
 
     
 
@@ -88,26 +88,26 @@ if (count($matches)>1){
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </a>
-        <a class="brand" href="/vanquish/index.php?page=home"><img src="/vanquish/img/logo.png" alt="Title"></a>
+        <a class="brand" href="/index.php?page=home"><img src="/img/logo.png" alt="Title"></a>
         <div class="nav-collapse collapse">
           <ul class="nav pull-right">
-            <li class="<?php echo ($page == "home" ? "active" : "");?>"><a href="/vanquish/index.php?page=home">Home</a></li>
+            <li class="<?php echo ($page == "home" ? "active" : "");?>"><a href="/index.php?page=home">Home</a></li>
             
             
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Boats <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="/vanquish/pages/vanquish-vq32.php?page=vanquish-VQ32">Vanquish VQ32</a></li>
-                  <li><a href="/vanquish/pages/vanquish-vq40.php?page=vanquish-VQ40">Vanquish VQ40</a></li>
+                  <li><a href="/pages/vanquish-vq32.php?page=vanquish-VQ32">Vanquish VQ32</a></li>
+                  <li><a href="/pages/vanquish-vq40.php?page=vanquish-VQ40">Vanquish VQ40</a></li>
                   <li><a href="#">Vanquish VQ60</a></li>
                 </ul>
             </li>
             
             
-            <li class="<?php echo ($page == "gallery" ? "active" : "");?>"><a href="/vanquish/pages/gallery.php?page=gallery">Gallery</a></li>
-             <li class="<?php echo ($page == "videos" ? "active" : "");?>"><a href="/vanquish/pages/videos.php?page=videos">Videos</a></li>
-             <li class="<?php echo ($page == "events" ? "active" : "");?>"><a href="/vanquish/pages/events.php?page=events">Events</a></li>
-             <li class="<?php echo ($page == "contact" ? "active" : "");?>"><a href="/vanquish/pages/contact.php?page=contact">Contact</a></li>
+            <li class="<?php echo ($page == "gallery" ? "active" : "");?>"><a href="/pages/gallery.php?page=gallery">Gallery</a></li>
+             <li class="<?php echo ($page == "videos" ? "active" : "");?>"><a href="/pages/videos.php?page=videos">Videos</a></li>
+             <li class="<?php echo ($page == "events" ? "active" : "");?>"><a href="/pages/events.php?page=events">Events</a></li>
+             <li class="<?php echo ($page == "contact" ? "active" : "");?>"><a href="/pages/contact.php?page=contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

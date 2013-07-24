@@ -1,6 +1,6 @@
 <?php 
    $path_header = $_SERVER['DOCUMENT_ROOT'];
-   $path_header .= "/vanquish/templates/header.php";
+   $path_header .= "/templates/header.php";
    include_once($path_header);
 
 ?>
@@ -40,7 +40,7 @@
       <div class="accordion-inner">
         <?php 
             $path_header = $_SERVER['DOCUMENT_ROOT'];
-            $path_header .= "/vanquish/templates/gallery-images-01.php";
+            $path_header .= "/templates/gallery-images-01.php";
             include($path_header);
        ?>
       </div>
@@ -62,7 +62,7 @@
       <div class="accordion-inner">
         <?php 
             $path_header = $_SERVER['DOCUMENT_ROOT'];
-            $path_header .= "/vanquish/templates/gallery-images-02.php";
+            $path_header .= "/templates/gallery-images-02.php";
             include($path_header);
        ?>
       </div>
@@ -90,13 +90,13 @@
   
   <!--glasses front page-->
   <section id="clients"> 
-        <img src="/vanquish/img/generic/gallery-footer-01.jpg" >
+        <img src="/img/generic/gallery-footer-01.jpg" >
   </section>
   
   
 <?php 
    $path_header = $_SERVER['DOCUMENT_ROOT'];
-   $path_header .= "/vanquish/templates/footer.php";
+   $path_header .= "/templates/footer.php";
    include_once($path_header);
  ?>
   
