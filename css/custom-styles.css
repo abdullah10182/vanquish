@@ -22,6 +22,9 @@ body, html {
 }
 
 
+.navbar{
+    position: relative;
+}
 
 .navbar .container {
 width: auto;
