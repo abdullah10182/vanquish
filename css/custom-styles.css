@@ -251,10 +251,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 /*controls slider home*/
 #controls {
     z-index: 1;
-    margin-top: 120px;
-    position: relative;
-    float: right;
-    margin-right: 10px;
+    top: 120px;
+    position: absolute;
+
+    right: 10px;
     display: none;
 }
         
@@ -308,13 +308,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
             padding: 15px 0 15px 10px;
             border-bottom: 1px solid #3A3A3A;
         } 
+        
+      .navbar{
+    position: relative;
+}
+
        
   }
         
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
   
-
 
    
    #services .container {
@@ -345,9 +349,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) { 
-     #controls {
-        margin-top: 20px;
-   }
+
    
    #services {
        bottom: 60px;
