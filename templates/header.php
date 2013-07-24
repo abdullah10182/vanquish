@@ -36,6 +36,7 @@ if (count($matches)>1){
   <meta name="keywords" content="Vanquish yachts">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, target-densityDpi=device-dpi">
   
   <meta property="og:title" content="Vanquish | Designed By Triangon">
 	<meta property="og:type" content="website">
