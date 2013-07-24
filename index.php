@@ -19,8 +19,14 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
             <div class="hide_control">Full Screen</div>
             <div class="pause">pause</div>
             <div class="play">play</div>
+           <?php if (($ie) && ($ie_10)) {?>
+           <div class="prev">prev</div>
+            <div class="next">next</div>
+            <?php } 
+            else if (!$ie) {?> 
             <div class="prev">prev</div>
             <div class="next">next</div>
+            <?php } ?>
             <div class="counter"></div>
         </div>
 
