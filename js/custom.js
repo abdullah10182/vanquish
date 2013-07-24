@@ -59,3 +59,13 @@ function showServicesBlocks(){
      
 }
 
+jQuery(function(){
+
+    $('.soon').click(function() {
+        $("#site_message").html("Comming Soon").slideDown().delay(1500).slideUp();
+        
+
+    });
+
+});
+

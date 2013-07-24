@@ -80,6 +80,7 @@ if (count($matches)>1){
 </head>
 
 <body class="<?php echo $page; ?>">
+  <div id="site_message"></div>
   <div class="navbar navbar-inverse navbar-fixed-top animated fadeInDownBig">
     <div class="navbar-inner">
       <div class="container">
@@ -99,13 +100,13 @@ if (count($matches)>1){
                 <ul class="dropdown-menu">
                   <li><a href="/pages/vanquish-vq32.php?page=vanquish-VQ32">Vanquish VQ32</a></li>
                   <li><a href="/pages/vanquish-vq40.php?page=vanquish-VQ40">Vanquish VQ40</a></li>
-                  <li><a href="#">Vanquish VQ60</a></li>
+                  <li><a class="soon" href="#">Vanquish VQ60</a></li>
                 </ul>
             </li>
             
             
             <li class="<?php echo ($page == "gallery" ? "active" : "");?>"><a href="/pages/gallery.php?page=gallery">Gallery</a></li>
-             <li class="<?php echo ($page == "videos" ? "active" : "");?>"><a href="/pages/videos.php?page=videos">Videos</a></li>
+             <li class="<?php echo ($page == "videos" ? "active" : "");?>"><a class="soon" href="#" >Videos</a></li> <!-- href="/pages/videos.php?page=videos" -->
              <li class="<?php echo ($page == "events" ? "active" : "");?>"><a href="/pages/events.php?page=events">Events</a></li>
              <li class="<?php echo ($page == "contact" ? "active" : "");?>"><a href="/pages/contact.php?page=contact">Contact</a></li>
           </ul>

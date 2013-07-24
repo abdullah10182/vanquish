@@ -6,6 +6,15 @@ body, html {
     height: 100%;
 }
 
+#site_message {
+    width: 100%;
+    background: lightgreen;
+    text-align: center;
+    z-index: 1031;
+    position: absolute;
+    padding: 5px;
+    display: none;
+}
 
 .progress .bar {
     background-image: none;
