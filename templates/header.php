@@ -75,7 +75,7 @@ if (count($matches)>1){
     
 
 
-  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="shortcut icon" href="http://www.vanquish.com/favicon.png">
   
  
 </head>

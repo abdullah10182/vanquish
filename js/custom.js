@@ -38,10 +38,10 @@ jQuery(function(){
             }
             else if ($('.hide_control').html()=="Show"){
             $(".hide_control").html("Full Screen");
-            
-            if (width_browser > 480){
-                  $("#well").slideDown();
-            }
+                if (width_browser > 480){
+                      $("#well").slideDown();
+                }
+            $("#controls").css("margin-top","120px");
             }
         });
         
