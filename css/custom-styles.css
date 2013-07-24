@@ -374,11 +374,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 /* Landscape phones and down */
 @media (max-width: 480px) { 
 .brand img {
-    width: 80%;
+    
 }
 
 .brand {
- 
+    width: 60%;
 }
     
     #well{
