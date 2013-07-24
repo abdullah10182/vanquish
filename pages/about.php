@@ -75,7 +75,7 @@
         </div>
         
              <div class="span12" style="margin-left: 0;">
-              <h2>VQ Line</h2>test
+              <h2>VQ Line</h2>
               <p>The vanquish VQ model line is an exceptionally  performance motor cruiser, 
               Vanquish provides beautiful, comfortable accommodation for  guests while allowing 
               them to enjoy the excitement of its high top speed. A fully enclosed superstructure 
