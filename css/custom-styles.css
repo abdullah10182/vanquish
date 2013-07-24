@@ -184,6 +184,12 @@ max-width: 1170px;
     text-shadow: 0 0 5px rgba(255,255,255,.5);
 }
 
+#services .container h2{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 #services .service-box:hover 
  {
     background: rgba(88, 88, 88, 0.41);
@@ -327,12 +333,61 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
      #controls {
         margin-top: 20px;
    }
+   
+   #services {
+       bottom: 60px;
+   }
+   
+   .service-box {
+       padding: 0;
+   }
+   
+      .service-box h2{
+        margin: 0;
+        padding: 10px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+     .service-box p{
+        display: none;
+    }
+    
+    .service-box img{
+        width: 20px;
+    }
+   
+   
 }
 
 /* Landscape phones and down */
 @media (max-width: 480px) { 
-       #controls {
+         #controls {
         margin-top: 20px;
    }
+   
+   #services {
+       bottom: 60px;
+   }
+   
+   .service-box {
+       padding: 0;
+   }
+   
+      .service-box h2{
+        margin: 0;
+        padding: 10px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+     .service-box p{
+        display: none;
+    }
+    
+    .service-box img{
+        width: 20px;
+    }
+ 
 }
     
