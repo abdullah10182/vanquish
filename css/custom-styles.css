@@ -6,6 +6,10 @@ body, html {
     height: 100%;
 }
 
+.brand img {
+    width: 100%;
+}
+
 #site_message {
     width: 100%;
     background: lightgreen;
@@ -352,7 +356,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
       .service-box h2{
         margin: 0;
         padding: 10px;
-        font-size: 15px;
+        font-size: 20px;
         line-height: 20px;
     }
     
@@ -369,6 +373,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 /* Landscape phones and down */
 @media (max-width: 480px) { 
+.brand img {
+    width: 80%;
+}
+    
     #well{
         display: none;
     }
@@ -376,6 +384,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
      #services {
        bottom: 0px;
    }
+   
+    .service-box img{
+        display: none;
+    }
  
 }
     
