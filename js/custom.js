@@ -24,7 +24,7 @@
 
 
 */
-var width_browser = document.width;
+var width_browser =  $(window).width();
 jQuery(function(){
 
     $('.hide_control').click(function() {
