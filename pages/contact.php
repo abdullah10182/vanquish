@@ -4,6 +4,10 @@
    include_once($path_header);
 
 ?>
+  <!--glasses front page-->
+  <section id="clients"> 
+        <img src="/img/generic/glasses.jpg" >
+  </section>
 
   <!--Main Content-->
   <section id="content">
@@ -23,7 +27,7 @@
         <div class="span12">
           <h2>Get In touch</h2>
           <p class="lead">We Would Love To Hear From You</p>
-          <p>Feel free to contact if you have any questions.</p><br />
+         
         </div>
       </div>
       
@@ -63,7 +67,7 @@
 					       <div class="span8">
                     <div class="control-group">  
                       <div class="controls">  
-                        <textarea name="contact_message" id="input4" class="input-block-level" rows="8" placeholder="The message you want to send to me."></textarea>  
+                        <textarea name="contact_message" id="input4" class="input-block-level" rows="8" placeholder="The message you want to send."></textarea>  
                       </div>  
                     </div>  
                     <div class="text-right">  

@@ -4,6 +4,12 @@
    include_once($path_header);
 
 ?>
+  <!--glasses front page-->
+  <section id="clients"> 
+        <img src="/img/generic/gallery-footer.jpg" >
+  </section>
+    
+  
 
     <!--Main Content-->
   <section id="content">
@@ -130,12 +136,7 @@
   </section>
   
   
-  <!--glasses front page-->
-  <section id="clients"> 
-        <img src="/img/generic/gallery-footer.jpg" >
-  </section>
-    
-  
+
 <?php 
    $path_header = $_SERVER['DOCUMENT_ROOT'];
    $path_header .= "/templates/footer.php";

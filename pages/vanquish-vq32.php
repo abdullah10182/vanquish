@@ -4,6 +4,10 @@
    include_once($path_header);
 
 ?>
+  <!-- header image -->
+  <section id="clients"> 
+        <img src="/img/generic/gallery-footer-03.jpg" >
+  </section>
 
   
   <!--Main Content-->

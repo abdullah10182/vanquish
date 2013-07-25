@@ -5,10 +5,14 @@
 
 ?>
 
+  <!-- header image -->
+  <section id="clients"> 
+        <img src="/img/generic/gallery-footer-02.jpg" >
+  </section>
+
   <!--Main Content-->
   <section id="content">
     <div class="container">
-        <h2>Events</h2>
       <div class="row-fluid">
         <div class="span12">
           
@@ -17,6 +21,7 @@
             <li><a href="#">Home</a> <span class="divider">/</span></li>
             <li class="active">Events</li>
           </ul>
+          <h2>Events</h2>
         </div>
       </div>
       
@@ -29,13 +34,7 @@
             Location: Cannes, France</br>
             Website: <a href="http://www.salonnautiquecannes.com/">www.salonnautiquecannes.com</a></br>
         </div>
-      </div>
-      
-
-		
-		
-   
-      
+      </div> 
     </div>
   </section>  
   
@@ -52,10 +51,7 @@
   </section>
   
   
-  <!--glasses front page-->
-  <section id="clients"> 
-        <img src="/img/generic/gallery-footer-02.jpg" >
-  </section>
+
   
   
 <?php 

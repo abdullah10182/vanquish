@@ -5,6 +5,12 @@
 
 ?>
 
+ <!--glasses front page-->
+  <section id="clients"> 
+        <img src="/img/generic/gallery-footer-01.jpg" >
+  </section>
+
+
   <!--Main Content-->
   <section id="content">
     <div class="container">
@@ -36,7 +42,7 @@
        <h2> Vanquish Yachts introduction 32ft at Topshelf open 2013 </h2>
       </a>
     </div>
-    <div id="collapseOne" class="accordion-body collapse in">
+    <div id="collapseOne" class="accordion-body collapse out">
       <div class="accordion-inner">
         <?php 
             $path_header = $_SERVER['DOCUMENT_ROOT'];
@@ -88,10 +94,7 @@
   </section>
   
   
-  <!--glasses front page-->
-  <section id="clients"> 
-        <img src="/img/generic/gallery-footer-01.jpg" >
-  </section>
+ 
   
   
 <?php 
