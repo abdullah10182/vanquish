@@ -71,6 +71,8 @@ function showServicesBlocks(){
      
 }
 
+
+// commin soon drop down ===========
 jQuery(function(){
 
     $('.soon').click(function() {
@@ -79,5 +81,13 @@ jQuery(function(){
 
     });
 
+});
+
+//scroll to bottom contact page
+jQuery(function(){
+    $('.scrollToBottom').click(function () {
+        $('html, body').animate({scrollTop:$(document).height()}, 'slow');
+        return false;
+    });
 });
 

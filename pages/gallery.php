@@ -61,7 +61,7 @@
   <div class="accordion-group">
     <div class="accordion-heading">
       <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-       <h2> Vanquish LP32 in water</h2>
+       <h2> Vanquish VQ32 in water</h2>
       </a>
     </div>
     <div id="collapseTwo" class="accordion-body collapse out">

@@ -23,14 +23,16 @@
         </div>
       </div>
       
+       <a href="#" class="scrollToBottom" id="but1" >Contact Info</a>
       <div class="row-fluid">
         <div class="span12">
-          <h2>Get In touch</h2>
-          <p class="lead">We Would Love To Hear From You</p>
-         
+          <h2>Send us a message</h2>  
         </div>
       </div>
-      
+        
+     
+        
+   
       <div class="row-fluid">
         
         <?php  
@@ -81,6 +83,10 @@
 	
     		    
     </div>
+        
+        
+   
+        
   </section>  
   
   <!--Map Section-->
