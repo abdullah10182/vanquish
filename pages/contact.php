@@ -23,9 +23,12 @@
         </div>
       </div>
       
-       <a href="#" class="scrollToBottom" id="but1" >Contact Info</a>
+    
       <div class="row-fluid">
         <div class="span12">
+               <a href="#" class="scrollToBottom" id="but1" >Contact Info</a>
+        </div>
+        <div style="margin-left: 0;" class="span12">
           <h2>Send us a message</h2>  
         </div>
       </div>
