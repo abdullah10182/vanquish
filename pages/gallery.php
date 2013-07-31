@@ -33,12 +33,32 @@
       
  
     
+   <!-- gallery 00 -->  
+<div class="accordion" id="accordion1">
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent=".accordion" href="#collapseThree">
+       <h2> Vanquish VQ32</h2>
+      </a>
+    </div>
+    <div id="collapseThree" class="accordion-body collapse out">
+      <div class="accordion-inner">
+        <?php 
+            $path_header = $_SERVER['DOCUMENT_ROOT'];
+            $path_header .= "/templates/gallery-images-03.php";
+            include($path_header);
+       ?>
+      </div>
+    </div>
+  </div>
+ 
+</div> <!-- end gallery 00 page -->
   
    <!-- gallery 01 -->  
 <div class="accordion" id="accordion2">
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent=".accordion" href="#collapseOne">
        <h2> Vanquish Yachts introduction 32ft at Topshelf open 2013 </h2>
       </a>
     </div>
@@ -56,26 +76,7 @@
 </div> <!-- end gallery 01 page -->
 
 
-   <!-- gallery -->  
-<div class="accordion" id="accordion2">
-  <div class="accordion-group">
-    <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-       <h2> Vanquish VQ32 in water</h2>
-      </a>
-    </div>
-    <div id="collapseTwo" class="accordion-body collapse out">
-      <div class="accordion-inner">
-        <?php 
-            $path_header = $_SERVER['DOCUMENT_ROOT'];
-            $path_header .= "/templates/gallery-images-02.php";
-            include($path_header);
-       ?>
-      </div>
-    </div>
-  </div>
- 
-</div> <!-- end gallery 01 page -->
+
         
         
  </div> <!-- end container page -->

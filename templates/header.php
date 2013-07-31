@@ -107,8 +107,9 @@ if (count($matches)>1){
             
             
             <li class="<?php echo ($page == "gallery" ? "active" : "");?>"><a href="/pages/gallery.php?page=gallery">Gallery</a></li>
-             <li class="<?php echo ($page == "videos" ? "active" : "");?>"><a class="soon" href="#" >Videos</a></li> <!-- href="/pages/videos.php?page=videos" -->
+             <li class="<?php echo ($page == "videos" ? "active" : "");?>"><a href="/pages/videos.php?page=videos" >Videos</a></li> <!-- href="/pages/videos.php?page=videos" -->
              <li class="<?php echo ($page == "events" ? "active" : "");?>"><a href="/pages/events.php?page=events">Events</a></li>
+             <li class="<?php echo ($page == "dealers" ? "active" : "");?>"><a href="/pages/dealers.php?page=dealers">Dealers</a></li>
              <li class="<?php echo ($page == "contact" ? "active" : "");?>"><a href="/pages/contact.php?page=contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->

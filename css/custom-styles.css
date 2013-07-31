@@ -45,7 +45,7 @@ max-width: 1170px;
 
  .navbar div.nav-collapse>ul>li>a {
 	padding: 0;
-	padding: 17px 26px;
+	padding: 17px 19px;
 	border-right: 1px solid black;
 	border-left: 1px solid #696969;
   }
@@ -96,7 +96,52 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', end
      margin: 0 auto;
      float: left;
  }
+ 
+  /*----------- VIDEO PAGE---------*/
+  .video_title, .youtube{
+      float: left;
+  }
+  
+  .video_title h3 {
+      font-size: 33px;
+      margin: 86px 0 86px 20px;
+  }
+  
+  .video_title{
+      border-left: 1px solid lightgrey;
+      margin-left: 30px;
+  }
+  
+  .videos .video{
+        background: whitesmoke;
+        padding: 20px;
+        overflow: hidden;
+  }
+  
+  .videos .video:hover{
+      background: #E4E4E4;
+  }
 
+    /*----------- DEALERS PAGE---------*/
+
+  
+  .dealers .dealer{
+        background: whitesmoke;
+        padding: 20px;
+        overflow: hidden;
+  }
+  
+   .dealers .dealer:hover{
+      background: #E4E4E4;
+  }
+  
+  .dealer img, .dealer_info {
+      float: left;
+  }
+  
+  .dealer_info {
+      margin-left: 20px;
+  }
    
    /*----slide show-----*/
    .camera_overlayer {
@@ -175,6 +220,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', end
 .events .event{
     background: whitesmoke;
     padding: 20px;
+    overflow: hidden;
 }
 
 .events #content img {
@@ -186,8 +232,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', end
     color: grey;
 }
 
-.events a:hover {
-    color: lightgrey;
+.event:hover {
+    background: #E4E4E4;
 }
 
 /*-----footer----*/

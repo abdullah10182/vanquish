@@ -26,14 +26,16 @@
       </div>
       
       <div class="row-fluid events">
+          <a href="http://www.salonnautiquecannes.com/">
         <div class="span6 event">
           
           <h3>Festival de la plaisance 2013</h3>
             <img src="../img/events/fdlp2013.jpg">
             Date: 10 - 15 September 2013 </br>
             Location: Cannes, France</br>
-            Website: <a href="http://www.salonnautiquecannes.com/">www.salonnautiquecannes.com</a></br>
+            Website: www.salonnautiquecannes.com</br>
         </div>
+              </a>
       </div> 
     </div>
   </section>  

@@ -7,7 +7,7 @@
 
   <!-- header image front page-->
   <section id="clients"> 
-        <img src="/img/generic/gallery-footer.jpg" >
+        <img src="/img/generic/gallery-footer-04.jpg" >
   </section>
 
   <!--Main Content-->
@@ -25,11 +25,14 @@
       </div>
       
         <div class="row-fluid">
-       <a class="yt_link" href="http://www.youtube.com/embed/9Xdzz3uAAFQ?rel=0&amp;wmode=transparent&amp;autoplay=1"> 
-        <div class="span6 video">
-          <img class='youtube'  src="../img/generic/video-vq32.jpg">
-               <div class="video_title "><h3>Vanquish VQ32</h3>
-        </div>
+       <a class="yt_link" href="http://www.navilex.nl/"> 
+        <div class="span6 dealer">
+     <h3> Navilex - Boat Trading Loosdrecht</h3>
+     <img src="/img/generic/logo-navilex.png" >
+     <div class="dealer_info">       
+             Oud Loosdrechtsedijk 161</br>
+            1231 LV LoosdrechT
+      </div> 
       </div> 
       </a>
      
@@ -49,9 +52,7 @@
     </div>
   </section>
   
-  
-<script>$(".yt_link").colorbox({iframe:true, innerWidth:640, innerHeight:390, autoplay:true});</script>
-  
+   
   
 <?php 
    $path_header = $_SERVER['DOCUMENT_ROOT'];

@@ -172,7 +172,7 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
                                         "img/slides/slide-04.jpg",
                                         "img/slides/slide-05.jpg",        
                                         "img/slides/slide-06.jpg",        
-                                        "img/slides/slide-07.jpg"        
+                                        "img/slides/slide-07.jpg"     
 				],
                                 
 				onStart:function(opt){ showServicesBlocks();},
