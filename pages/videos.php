@@ -25,7 +25,7 @@
       </div>
       
         <div class="row-fluid">
-       <a class="yt_link" href="http://www.youtube.com/embed/9Xdzz3uAAFQ?rel=0&amp;wmode=transparent&amp;autoplay=1"> 
+       <a class="yt_link" href="http://www.youtube.com/watch?v=ZZ9zNAfC_1E?rel=0&amp;wmode=transparent&amp;autoplay=1"> 
         <div class="span6 video">
           <img class='youtube'  src="../img/generic/video-vq32.jpg">
                <div class="video_title "><h3>Vanquish VQ32</h3>
