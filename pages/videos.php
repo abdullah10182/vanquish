@@ -25,7 +25,7 @@
       </div>
       
         <div class="row-fluid">
-       <a class="yt_link" href="http://www.youtube.com/watch?v=ZZ9zNAfC_1E?rel=0&amp;wmode=transparent&amp;autoplay=1"> 
+       <a class="yt_link" href="http://www.youtube.com/embed/ZZ9zNAfC_1E?rel=0&amp;wmode=transparent&amp;autoplay=1"> 
         <div class="span6 video">
           <img class='youtube'  src="../img/generic/video-vq32.jpg">
                <div class="video_title "><h3>Vanquish VQ32</h3>
@@ -50,7 +50,7 @@
   </section>
   
   
-<script>$(".yt_link").colorbox({iframe:true, innerWidth:640, innerHeight:390, autoplay:true});</script>
+<script>$(".yt_link").colorbox({iframe:true, innerWidth:640, innerHeight:390, autoplay:true,opacity:".5"});</script>
   
   
 <?php 
