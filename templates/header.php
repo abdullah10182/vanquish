@@ -1,4 +1,8 @@
 <?php 
+//mobiel detection
+include 'Mobile_Detect.php';
+$detect = new Mobile_Detect;
+
 $page="home";
 if(isset($_GET['page'])){
     $page = $_GET['page'];
