@@ -7,7 +7,7 @@ $yt_link_class ="yt_link";
    include_once($path_header);
    
    if ($detect->isMobile()) {
-      $yt_link="http://www.youtube.com/watch?v=ZZ9zNAfC_1E&amp;vq=large";
+      $yt_link="http://youtu.be/ZZ9zNAfC_1E&amp;vq=large";
       $yt_link_class = "";
 }
 
