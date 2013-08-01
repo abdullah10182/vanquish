@@ -1,11 +1,13 @@
 <?php 
 $yt_link="http://www.youtube.com/embed/ZZ9zNAfC_1E?rel=0&amp;wmode=transparent&amp;autoplay=1";
+$yt_link_class ="";
    $path_header = $_SERVER['DOCUMENT_ROOT'];
    $path_header .= "/templates/header.php";
    include_once($path_header);
    
    if ($detect->isMobile()) {
       $yt_link="http://www.youtube.com/watch?v=ZZ9zNAfC_1E";
+      $yt_link_class = "yt_link";
 }
 
 ?>
@@ -30,7 +32,7 @@ $yt_link="http://www.youtube.com/embed/ZZ9zNAfC_1E?rel=0&amp;wmode=transparent&a
       </div>
       
         <div class="row-fluid">
-       <a class="yt_link" href="<?php print $yt_link; ?>"> 
+       <a class="<?php print $yt_link_class; ?>" href="<?php print $yt_link; ?>"> 
         <div class="span6 video">
           <img class='youtube'  src="../img/generic/video-vq32.jpg">
                <div class="video_title "><h3>Vanquish VQ32</h3>
