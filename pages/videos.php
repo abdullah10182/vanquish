@@ -1,5 +1,5 @@
 <?php 
-$yt_link="";
+$yt_link="http://www.youtube.com/embed/ZZ9zNAfC_1E?rel=0&amp;wmode=transparent&amp;autoplay=1";
    $path_header = $_SERVER['DOCUMENT_ROOT'];
    $path_header .= "/templates/header.php";
    include_once($path_header);
@@ -7,8 +7,6 @@ $yt_link="";
    if ($detect->isMobile()) {
       $yt_link="http://www.youtube.com/watch?v=ZZ9zNAfC_1E";
 }
-else
-    $yt_link= "http://www.youtube.com/embed/ZZ9zNAfC_1E?rel=0&amp;wmode=transparent&amp;autoplay=1";
 
 ?>
 
@@ -32,7 +30,7 @@ else
       </div>
       
         <div class="row-fluid">
-       <a class="yt_link" href="http://www.youtube.com/embed/ZZ9zNAfC_1E?rel=0&amp;wmode=transparent&amp;autoplay=1"> 
+       <a class="yt_link" href="<?php print $yt_link; ?>"> 
         <div class="span6 video">
           <img class='youtube'  src="../img/generic/video-vq32.jpg">
                <div class="video_title "><h3>Vanquish VQ32</h3>
