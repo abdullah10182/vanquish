@@ -1,12 +1,13 @@
 <?php 
-$yt_link="http://www.youtube.com/embed/ZZ9zNAfC_1E?rel=0&amp;wmode=transparent&amp;autoplay=1";
+$yt_link="http://www.youtube.com/embed/ZZ9zNAfC_1E?rel=0&amp;wmode=transparent&amp;autoplay=1&amp;vq=large";
 $yt_link_class ="yt_link";
+
    $path_header = $_SERVER['DOCUMENT_ROOT'];
    $path_header .= "/templates/header.php";
    include_once($path_header);
    
    if ($detect->isMobile()) {
-      $yt_link="http://www.youtube.com/watch?v=ZZ9zNAfC_1E";
+      $yt_link="http://www.youtube.com/watch?v=ZZ9zNAfC_1E&amp;vq=large";
       $yt_link_class = "";
 }
 
