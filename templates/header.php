@@ -94,27 +94,27 @@ if (count($matches)>1){
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </a>
-        <a class="brand" href="/index.php?page=home"><img src="/img/logo.png" alt="Title"></a>
+        <a class="brand" href="/"><img src="/img/logo.png" alt="Title"></a>
         <div class="nav-collapse collapse">
           <ul class="nav pull-right">
-            <li class="<?php echo ($page == "home" ? "active" : "");?>"><a href="/index.php?page=home">Home</a></li>
+            <li class="<?php echo ($page == "home" ? "active" : "");?>"><a href="/">Home</a></li>
             
             
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Boats <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="/pages/vanquish-vq32.php?page=vanquish-VQ32">Vanquish VQ32</a></li>
-                  <li><a href="/pages/vanquish-vq40.php?page=vanquish-VQ40">Vanquish VQ40</a></li>
+                  <li><a href="/vq32">Vanquish VQ32</a></li>
+                  <li><a href="/vq40">Vanquish VQ40</a></li>
                   <li><a class="soon" href="#">Vanquish VQ60</a></li>
                 </ul>
             </li>
             
             
-            <li class="<?php echo ($page == "gallery" ? "active" : "");?>"><a href="/pages/gallery.php?page=gallery">Gallery</a></li>
-             <li class="<?php echo ($page == "videos" ? "active" : "");?>"><a href="/pages/videos.php?page=videos" >Videos</a></li> <!-- href="/pages/videos.php?page=videos" -->
-             <li class="<?php echo ($page == "events" ? "active" : "");?>"><a href="/pages/events.php?page=events">Events</a></li>
-             <li class="<?php echo ($page == "dealers" ? "active" : "");?>"><a href="/pages/dealers.php?page=dealers">Dealers</a></li>
-             <li class="<?php echo ($page == "contact" ? "active" : "");?>"><a href="/pages/contact.php?page=contact">Contact</a></li>
+            <li class="<?php echo ($page == "gallery" ? "active" : "");?>"><a href="/gallery">Gallery</a></li>
+             <li class="<?php echo ($page == "videos" ? "active" : "");?>"><a href="/videos" >Videos</a></li> <!-- href="/pages/videos.php?page=videos" -->
+             <li class="<?php echo ($page == "events" ? "active" : "");?>"><a href="/events">Events</a></li>
+             <li class="<?php echo ($page == "dealers" ? "active" : "");?>"><a href="/dealers">Dealers</a></li>
+             <li class="<?php echo ($page == "contact" ? "active" : "");?>"><a href="/contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
