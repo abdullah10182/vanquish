@@ -27,7 +27,7 @@
       
       <div class="row-fluid">
         <div class="span12">
-          <h2>Gallery Images</h2>
+          <h1>Gallery Images</h1>
         </div>
       </div>
       

@@ -26,7 +26,7 @@
       
       <div class="row-fluid">
         <div class="span12">
-          <h2>Vanquish VQ40</h2>
+          <h1>Vanquish VQ40</h1>
         </div>
       </div>
       

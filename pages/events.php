@@ -21,7 +21,7 @@
             <li><a href="#">Home</a> <span class="divider">/</span></li>
             <li class="active">Events</li>
           </ul>
-          <h2>Events</h2>
+          <h1>Events</h1>
         </div>
       </div>
       

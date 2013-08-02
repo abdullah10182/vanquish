@@ -39,15 +39,19 @@ if (count($matches)>1){
   <meta charset="utf-8">
   <title>Vanquish Yachts | <?php echo ucfirst($page); ?></title>
   <meta name="keywords" content="Vanquish yachts">
-  <meta name="description" content="">
+  <meta name="description" content="Vanquish Yachts is a company that designs and builds high-end performance yachts.
+        These yachts are hand built using the latest manufacturing techniques ensuring the utmost quality and reliability. 
+        Working together with the countries best designers and applying the latest engineering technologies we manufacture 
+        standard line yachts and customer specific yachts to suit any needs.">
+  <meta name="robots" content="index, follow"/>
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
  
   
   <meta property="og:title" content="Vanquish | Designed By Triangon">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="http://www.vanquish-yachts.com">
-	<meta property="og:site_name" content="Vanquish Yachts">
-	<meta property="og:description" content="">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://www.vanquish-yachts.com">
+<meta property="og:site_name" content="Vanquish Yachts">
+
 
   <!-- Styles -->
   <link rel="stylesheet" href="/css/font-awesome.min.css">

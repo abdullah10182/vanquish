@@ -29,6 +29,7 @@ $yt_link_class ="yt_link";
             <li><a href="#">Home</a> <span class="divider">/</span></li>
             <li class="active">Videos</li>
           </ul>
+            <h1>Videos</h1>
         </div>
       </div>
       

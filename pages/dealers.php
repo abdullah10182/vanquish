@@ -21,6 +21,7 @@
             <li><a href="#">Home</a> <span class="divider">/</span></li>
             <li class="active">Videos</li>
           </ul>
+            <h1>Dealers</h1>
         </div>
       </div>
       

@@ -39,7 +39,7 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
         
         <!--Service Section One-->
         <div class="span4 text-center service-box">
-          <a href="/pages/about.php?page=about">
+          <a href="/about">
              <img src="img/generic/design-icon.png">
             <h2>Innovative &</br> Graceful Design</h2>
             <p>Vanquish Yachts works together with the best yacht designers and interior architects to provide a unique product.</p>
@@ -48,7 +48,7 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
         
         <!--Service Section Two-->
         <div class="span4 text-center service-box">
-          <a href="/pages/about.php?page=about">
+          <a href="/about">
             <img src="img/generic/saling-icon.png">
             <h2>Passion for </br>Performance</h2>
              <p>High tech engineering translating into fast, adaptable and fuel efficient yachts. </p>
@@ -57,7 +57,7 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
         
         <!--Service Section Three-->
         <div class="span4 text-center service-box">
-          <a href="/pages/about.php?page=about">
+          <a href="/about">
              <img src="img/generic/material-icon.png">
             <h2>Superior Material</br> Characteristics</h2>
             <p>Latest manufacturing techniques using seaworthy aluminum and high quality carbon fiber.</p>

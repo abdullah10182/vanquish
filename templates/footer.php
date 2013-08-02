@@ -11,7 +11,7 @@
               utmost quality and reliability. Working together with the countries best designers 
               and applying the latest engineering technologies we manufacture standard line yachts 
               and customer specific yachts to suit any needs.</p><br />
-            <a class="more" href="/pages/about.php?page=about">+ More</a>
+            <a class="more" href="/about">+ More</a>
         </div>
         
         <!--Bottom Section Two-->

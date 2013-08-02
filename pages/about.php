@@ -27,7 +27,7 @@
       
       <div class="row-fluid">
         <div class="span6">
-          <h2>About Us</h2>
+          <h1>About Us</h1>
           <p>Vanquish Yachts is a company that designs and builds high-end performance yachts. 
               These yachts are hand built using the latest manufacturing techniques ensuring the 
               utmost quality and reliability. Working together with the countries best designers 

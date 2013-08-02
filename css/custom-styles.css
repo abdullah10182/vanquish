@@ -6,6 +6,12 @@ body, html {
     height: 100%;
 }
 
+h1 {
+    font-weight: normal;
+color: #8A8A8A;
+font-size: 35px;
+}
+
 .mbBgndGallery{
     z-index:0;
 }
