@@ -37,7 +37,12 @@ if (count($matches)>1){
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Vanquish Yachts | <?php echo ucfirst($page); ?></title>
+  <?php if ($page=="home"){ ?>
+     <title>Vanquish Yachts | Luxury Yachts - Hand Built In Holland.</title>
+ <?php } else { ?>
+     
+     <title>Vanquish Yachts | <?php echo ucfirst($page); ?> </title>
+<?php } ?>
   <meta name="keywords" content="Vanquish yachts">
   <meta name="description" content="Vanquish Yachts is a company that designs and builds high-end performance yachts.
         These yachts are hand built using the latest manufacturing techniques ensuring the utmost quality and reliability. 
