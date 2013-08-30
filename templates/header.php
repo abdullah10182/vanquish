@@ -115,20 +115,16 @@ if (count($matches)>1){
         <a class="brand" href="/"><img src="/img/logo.png" alt="Title"></a>
         <div class="nav-collapse collapse">
           <ul class="nav pull-right">
-            <li class="<?php echo ($page == "home" ? "active" : "");?>"><a href="/">Home</a></li>
-            
-            
+            <li class="<?php echo ($page == "home" ? "active" : "");?>"><a href="/">Home</a></li> 
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Boats <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="/vq32">Vanquish VQ32</a></li>
                   <li><a href="/vq40">Vanquish VQ40</a></li>
-                  <li><a class="soon" href="#">Vanquish VQ60</a></li>
+                  <li><a href="/vq60">Vanquish VQ60</a></li>
                 </ul>
             </li>
-            
-            
-            <li class="<?php echo ($page == "gallery" ? "active" : "");?>"><a href="/gallery">Gallery</a></li>
+             <li class="<?php echo ($page == "gallery" ? "active" : "");?>"><a href="/gallery">Gallery</a></li>
              <li class="<?php echo ($page == "videos" ? "active" : "");?>"><a href="/videos" >Videos</a></li> <!-- href="/pages/videos.php?page=videos" -->
              <li class="<?php echo ($page == "events" ? "active" : "");?>"><a href="/events">Events</a></li>
              <li class="<?php echo ($page == "dealers" ? "active" : "");?>"><a href="/dealers">Dealers</a></li>
