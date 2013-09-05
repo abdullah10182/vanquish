@@ -122,6 +122,7 @@ if (count($matches)>1){
                   <li><a href="/vq32">Vanquish VQ32</a></li>
                   <li><a href="/vq40">Vanquish VQ40</a></li>
                   <li><a href="/vq60">Vanquish VQ60</a></li>
+                  <li><a href="/vq80">Vanquish VQ80</a></li>
                 </ul>
             </li>
              <li class="<?php echo ($page == "gallery" ? "active" : "");?>"><a href="/gallery">Gallery</a></li>

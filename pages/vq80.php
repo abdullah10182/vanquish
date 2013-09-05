@@ -6,7 +6,7 @@
 ?>
   <!-- header image -->
   <section id="clients"> 
-        <img src="/img/generic/gallery-footer-06.jpg" >
+        <img src="/img/generic/gallery-footer-07.jpg" >
   </section>
   
   <!--Main Content-->
@@ -19,14 +19,14 @@
           <ul class="breadcrumb">
             <li><a href="#">Home</a> <span class="divider">/</span></li>
             <li><a href="#">Our Boats</a> <span class="divider">/</span></li>
-            <li class="active">Vanquish VQ60</li>
+            <li class="active">Vanquish VQ80</li>
           </ul>
         </div>
       </div>
       
       <div class="row-fluid">
         <div class="span12">
-          <h1>Vanquish VQ60</h1>
+          <h1>Vanquish VQ80</h1>
         </div>
       </div>
       
@@ -36,25 +36,26 @@
 
          <div class="camera_wrap camera_azure_skin" id="camera2">
       
-         <div class="product_image" data-thumb="/img/products/vq60-side-view-t.jpg" data-src="/img/products/vq60-side-view.jpg" >
+         <div class="product_image" data-thumb="/img/products/vq80-side-view-t.jpg" data-src="/img/products/vq80-side-view.jpg" >
              <div class="camera_caption fadeFromBottom">
-             Side view <a href="/img/products/vq60-side-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
+             Side view <a href="/img/products/vq80-side-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
              </div>
          </div>
       
-          <div class="product_image" data-thumb="/img/products/vq60-top-view-t.jpg" data-src="/img/products/vq60-top-view.jpg" >
+          <div class="product_image" data-thumb="/img/products/vq80-top-view-t.jpg" data-src="/img/products/vq80-top-view.jpg" >
              <div class="camera_caption fadeFromBottom">
-             Top view<a href="/img/products/vq60-top-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
+             Top view<a href="/img/products/vq80-top-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
            </div>
          </div>
          
-      
-           <div class="product_image" data-thumb="/img/products/vq60-top-sec-view-t.jpg" data-src="/img/products/vq40-top-sec-view.jpg" >
+      <?php /*
+           <div class="product_image" data-thumb="/img/products/vq80-top-sec-view-t.jpg" data-src="/img/products/vq40-top-sec-view.jpg" >
              <div class="camera_caption fadeFromBottom">
-            Top view interior <a href="/img/products/vq60-top-sec-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
+            Top view interior <a href="/img/products/vq80-top-sec-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
            </div>
          </div>
-
+*/
+      ?>
    
         </div><!-- #camera_wrap_1 -->
 
