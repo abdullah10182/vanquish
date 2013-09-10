@@ -1,4 +1,4 @@
-     <div class="row-fluid text-center">
+<div class="row-fluid text-center">
   
           
           <!--Project Thumbnail One-->

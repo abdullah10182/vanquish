@@ -91,3 +91,30 @@ jQuery(function(){
     });
 });
 
+
+//ajax call gallery
+/*
+$(document).ready(function(){
+  $("#03").click(function(){
+
+   $.ajax({
+    url: '/templates/gallery-images-04.php',
+    type: 'GET',
+    beforeSend: function() {
+        // TODO: show your spinner
+        $('#loading').show();
+    },
+    complete: function() {
+        // TODO: hide your spinner
+        $('#loading').hide();
+      
+    },
+    success: function(result) {
+        $('#03 .accordion-inner').html(result);
+        $(".gallery_03").colorbox({rel:'gallery_03', transition:"elastic", width:"80%", opacity:".5"});
+    }
+});
+    
+ });
+});
+*/
