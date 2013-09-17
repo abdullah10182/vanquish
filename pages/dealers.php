@@ -7,7 +7,7 @@
 
   <!-- header image front page-->
   <section id="clients"> 
-        <img src="/img/generic/gallery-footer-04.jpg" >
+        <img src="/img/generic/gallery-footer-08.jpg" >
   </section>
 
   <!--Main Content-->
@@ -43,8 +43,14 @@
                 <h3> SY Prestige Yachts</h3>
                 <img src="/img/generic/logo-prestige-yachts.jpg" >
                     <div class="dealer_info">       
-                        CANNES France
+                         21 quai st Pierre</br>
+                         06400 Cannes, FRANCE 
                     </div> 
+                    <div class="exclusive">       
+                     Exclusive Dealer for </br>
+                          Cannes | St. Tropez | Monaco
+                    </div> 
+                
                 </div> 
             </a>
 

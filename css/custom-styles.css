@@ -137,6 +137,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', end
         background: whitesmoke;
         padding: 20px;
         overflow: hidden;
+        position: relative;
+        border: 1px solid lightgrey;
   }
   
    .dealers .dealer:hover{
@@ -150,6 +152,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', end
   .dealer_info {
       margin-left: 20px;
   }
+  
+     
+   .exclusive{
+       border: 1px solid lightgray;
+       background: #B1AD74;
+       color: white;
+       font-size: 12px;
+       position: absolute;
+       bottom: 0;
+       right: 0;
+       text-align: center;
+       padding: 3px;
+       margin-top: 30px;
+   }
    
    /*----slide show-----*/
    .camera_overlayer {
@@ -229,6 +245,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', end
     background: whitesmoke;
     padding: 20px;
     overflow: hidden;
+    position: relative;
+    border: 1px solid lightgrey;
 }
 
 .events #content img {
