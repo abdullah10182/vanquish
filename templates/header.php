@@ -120,7 +120,7 @@ if (count($matches)>1){
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Boats <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="/vq32">Vanquish VQ32</a></li>
-                  <li><a href="/VQ43">Vanquish VQ43</a></li>
+                  <li><a href="/vq43">Vanquish VQ43</a></li>
                   <li><a href="/vq60">Vanquish VQ60</a></li>
                   <li><a href="/vq80">Vanquish VQ80</a></li>
                 </ul>

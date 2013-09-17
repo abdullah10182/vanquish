@@ -36,21 +36,21 @@
 
          <div class="camera_wrap camera_azure_skin" id="camera2">
       
-         <div class="product_image" data-thumb="/img/products/VQ43-side-view-t.jpg" data-src="/img/products/VQ43-side-view.jpg" >
+         <div class="product_image" data-thumb="/img/products/vq43-side-view-t.jpg" data-src="/img/products/vq43-side-view.jpg" >
              <div class="camera_caption fadeFromBottom">
-             Side view <a href="/img/products/VQ43-side-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
+             Side view <a href="/img/products/vq43-side-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
              </div>
          </div>
       
-          <div class="product_image" data-thumb="/img/products/VQ43-top-view-t.jpg" data-src="/img/products/VQ43-top-view.jpg" >
+          <div class="product_image" data-thumb="/img/products/vq43-top-view-t.jpg" data-src="/img/products/vq43-top-view.jpg" >
              <div class="camera_caption fadeFromBottom">
-             Top view<a href="/img/products/VQ43-top-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
+             Top view<a href="/img/products/vq43-top-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
            </div>
          </div>
          
-           <div class="product_image" data-thumb="/img/products/VQ43-top-sec-view-t.jpg" data-src="/img/products/VQ43-top-sec-view.jpg" >
+           <div class="product_image" data-thumb="/img/products/vq43-top-sec-view-t.jpg" data-src="/img/products/vq43-top-sec-view.jpg" >
              <div class="camera_caption fadeFromBottom">
-            Top view interior <a href="/img/products/VQ43-top-sec-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
+            Top view interior <a href="/img/products/vq43-top-sec-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
            </div>
          </div>
    
