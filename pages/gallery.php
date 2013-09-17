@@ -33,12 +33,12 @@
    
     
         
-    <!-- gallery VQ40 -->  
+    <!-- gallery VQ43 -->  
 <div class="accordion" id="03">
   <div class="accordion-group">
     <div class="accordion-heading">
       <a class="accordion-toggle" data-toggle="collapse" data-parent=".accordion" href="#collapseThree">
-       <h2> Vanquish VQ40</h2>
+       <h2> Vanquish VQ43</h2>
       </a>
     </div>
     <div id="collapseThree" class="accordion-body collapse out">

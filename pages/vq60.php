@@ -103,7 +103,7 @@
   
     
         jQuery('#camera2').camera({
-                height: '400px',
+                height: '50%',
                 loader: false,
                 pagination: false,
                 thumbnails: true,

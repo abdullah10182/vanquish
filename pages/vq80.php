@@ -73,7 +73,7 @@
          </div>
          
       <?php /*
-           <div class="product_image" data-thumb="/img/products/vq80/vq80-top-sec-view-t.jpg" data-src="/img/products/vq80/vq40-top-sec-view.jpg" >
+           <div class="product_image" data-thumb="/img/products/vq80/vq80-top-sec-view-t.jpg" data-src="/img/products/vq80/VQ43-top-sec-view.jpg" >
              <div class="camera_caption fadeFromBottom">
             Top view interior <a href="/img/products/vq80/vq80-top-sec-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
            </div>

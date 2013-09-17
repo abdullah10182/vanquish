@@ -26,18 +26,28 @@
       </div>
       
         <div class="row-fluid">
-       <a class="yt_link" href="http://www.navilex.nl/"> 
-        <div class="span6 dealer">
-     <h3> Navilex - Boat Trading Loosdrecht</h3>
-     <img src="/img/generic/logo-navilex.png" >
-     <div class="dealer_info">       
-             Oud Loosdrechtsedijk 161</br>
-            1231 LV LoosdrechT
-      </div> 
-      </div> 
-      </a>
-     
-      
+            
+            <a class="yt_link" href="http://www.navilex.nl/"> 
+                <div class="span6 dealer box_left">
+                <h3> Navilex - Boat Trading Loosdrecht</h3>
+                <img src="/img/generic/logo-navilex.png" >
+                    <div class="dealer_info">       
+                          Oud Loosdrechtsedijk 161</br>
+                         1231 LV LoosdrechT
+                    </div> 
+                </div> 
+            </a>
+            
+            <a class="yt_link" href="http://syprestigeyachts.com/"> 
+                <div class="span6 dealer">
+                <h3> SY Prestige Yachts</h3>
+                <img src="/img/generic/logo-prestige-yachts.jpg" >
+                    <div class="dealer_info">       
+                        CANNES France
+                    </div> 
+                </div> 
+            </a>
+
     </div>
   </section>  
   
