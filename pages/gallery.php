@@ -2,7 +2,7 @@
    $path_header = $_SERVER['DOCUMENT_ROOT'];
    $path_header .= "/templates/header.php";
    include_once($path_header);
-
+   
 ?>
   
  <!--glasses front page-->
