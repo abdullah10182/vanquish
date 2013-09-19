@@ -7,7 +7,7 @@
   
  <!--glasses front page-->
   <section id="clients"> 
-        <img src="/img/generic/gallery-footer-01.jpg" >
+        <img src="/img/generic/gallery-footer-09.jpg" >
   </section>
 
 
@@ -74,7 +74,8 @@
   </div>
  
 </div> <!-- end gallery 00 page -->
-  
+ 
+<?php /*
    <!-- gallery 01 -->  
 <div class="accordion" id="accordion1">
   <div class="accordion-group">
@@ -95,7 +96,7 @@
   </div>
  
 </div> <!-- end gallery 01 page -->
-
+*/ ?>
    
       <div id="loading" style=" display: none; z-index:1; margin: 0 auto 0; width: 220px;"><span><img src='/img/generic/ajax-loader.gif'></span>loading...</div>
 
