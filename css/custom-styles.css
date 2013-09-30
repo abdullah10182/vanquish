@@ -124,6 +124,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', end
         background: whitesmoke;
         padding: 20px;
         overflow: hidden;
+         border: 1px solid lightgrey;
   }
   
   .videos .video:hover{

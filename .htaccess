@@ -4,4 +4,4 @@ RewriteEngine on
 RewriteRule   ^([a-zA-Z0-9]+)/?$  pages/$1.php?page=$1 [L]
 
 
-#RewriteRule   ^([a-zA-Z0-9]+)/?$    pages/contact.php?page=$1 [L]
+
