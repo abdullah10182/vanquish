@@ -4,14 +4,13 @@
     //get the list of all files with .jpg extension in the directory and safe it in an array named $images
     $images_t = glob( $dir_t );
     $images = glob( $dir );
-    
 ?>  
     <!-- ---------------------------------------- -->
     <!--start-->  
    <div class="row-fluid text-center">        
  <?php
   $counter =0;
- for ($i = 0; $i < count($images); $i++) {
+ for (($i=count($images)-1); $i>=0; $i--) {
 
      if ($counter == 4){
         
@@ -24,7 +23,7 @@
     		<div class="span3 thumbs">
     			<img  src="<?php echo $images_t[$i]; ?>" alt="">
     			<a class="gallery_01" href="<?php echo $images[$i]; ?>" title="Vanquish Yachts">
-    				<span class="title">
+    				T<span class="title">
     					<span>Vanquish VQ43</span>
     				</span>	
     			</a>
