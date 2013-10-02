@@ -49,7 +49,7 @@
       
             ?>  
             
-            <form method="POST" action="contact-form-submission.php">
+              <form method="POST" action="/pages/contact-form-submission.php">
               <div class="row-fluid">
                 
                 <div class="span4">
