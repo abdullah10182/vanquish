@@ -23,7 +23,7 @@
     		<div class="span3 thumbs">
     			<img  src="<?php echo $images_t[$i]; ?>" alt="">
     			<a class="gallery_01" href="<?php echo $images[$i]; ?>" title="Vanquish Yachts">
-    				T<span class="title">
+    				<span class="title">
     					<span>Vanquish VQ43</span>
     				</span>	
     			</a>
