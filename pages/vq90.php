@@ -19,7 +19,7 @@
           <ul class="breadcrumb">
             <li><a href="#">Home</a> <span class="divider">/</span></li>
             <li><a href="#">Our Boats</a> <span class="divider">/</span></li>
-            <li class="active">Vanquish VQ90</li>
+            <li class="active">Vanquish vq90</li>
           </ul>
         </div>
       </div>
@@ -36,46 +36,46 @@
 
          <div class="camera_wrap camera_ash_skin" id="camera2">
       
-         <div class="product_image" data-thumb="/img/products/VQ90/VQ90-side-view-t.jpg" data-src="/img/products/VQ90/VQ90-side-view.jpg" >
+         <div class="product_image" data-thumb="/img/products/vq90/vq90-side-view-t.jpg" data-src="/img/products/vq90/vq90-side-view.jpg" >
              <div class="camera_caption fadeFromBottom">
-             Side view <a href="/img/products/VQ90/VQ90-side-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
+             Side view <a href="/img/products/vq90/vq90-side-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
              </div>
          </div>
       
-          <div class="product_image" data-thumb="/img/products/VQ90/VQ90-top-view-t.jpg" data-src="/img/products/VQ90/VQ90-top-view.jpg" >
+          <div class="product_image" data-thumb="/img/products/vq90/vq90-top-view-t.jpg" data-src="/img/products/vq90/vq90-top-view.jpg" >
              <div class="camera_caption fadeFromBottom">
-             Top view<a href="/img/products/VQ90/VQ90-top-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
+             Top view<a href="/img/products/vq90/vq90-top-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
            </div>
          </div>
              
-         <div class="product_image" data-thumb="/img/products/VQ90/VQ90-view-01-t.jpg" data-src="/img/products/VQ90/VQ90-view-01.jpg" >
+         <div class="product_image" data-thumb="/img/products/vq90/vq90-view-01-t.jpg" data-src="/img/products/vq90/vq90-view-01.jpg" >
              <div class="camera_caption fadeFromBottom">
-             VQ90<a href="/img/products/VQ90/VQ90-view-01-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
+             vq90<a href="/img/products/vq90/vq90-view-01-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
            </div>
          </div>
              
-         <div class="product_image" data-thumb="/img/products/VQ90/VQ90-view-02-t.jpg" data-src="/img/products/VQ90/VQ90-view-02.jpg" >
+         <div class="product_image" data-thumb="/img/products/vq90/vq90-view-02-t.jpg" data-src="/img/products/vq90/vq90-view-02.jpg" >
              <div class="camera_caption fadeFromBottom">
-             VQ90<a href="/img/products/VQ90/VQ90-view-02-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
+             vq90<a href="/img/products/vq90/vq90-view-02-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
            </div>
          </div>
              
-         <div class="product_image" data-thumb="/img/products/VQ90/VQ90-view-03-t.jpg" data-src="/img/products/VQ90/VQ90-view-03.jpg" >
+         <div class="product_image" data-thumb="/img/products/vq90/vq90-view-03-t.jpg" data-src="/img/products/vq90/vq90-view-03.jpg" >
              <div class="camera_caption fadeFromBottom">
-             VQ90<a href="/img/products/VQ90/VQ90-view-03-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
+             vq90<a href="/img/products/vq90/vq90-view-03-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
            </div>
          </div>
              
-         <div class="product_image" data-thumb="/img/products/VQ90/VQ90-view-04-t.jpg" data-src="/img/products/VQ90/VQ90-view-04.jpg" >
+         <div class="product_image" data-thumb="/img/products/vq90/vq90-view-04-t.jpg" data-src="/img/products/vq90/vq90-view-04.jpg" >
              <div class="camera_caption fadeFromBottom">
-             VQ90<a href="/img/products/VQ90/VQ90-view-04-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
+             vq90<a href="/img/products/vq90/vq90-view-04-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
            </div>
          </div>
          
       <?php /*
-           <div class="product_image" data-thumb="/img/products/VQ90/VQ90-top-sec-view-t.jpg" data-src="/img/products/VQ90/VQ43-top-sec-view.jpg" >
+           <div class="product_image" data-thumb="/img/products/vq90/vq90-top-sec-view-t.jpg" data-src="/img/products/vq90/VQ43-top-sec-view.jpg" >
              <div class="camera_caption fadeFromBottom">
-            Top view interior <a href="/img/products/VQ90/VQ90-top-sec-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
+            Top view interior <a href="/img/products/vq90/vq90-top-sec-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
            </div>
          </div>
 */
