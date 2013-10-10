@@ -19,14 +19,14 @@
           <ul class="breadcrumb">
             <li><a href="#">Home</a> <span class="divider">/</span></li>
             <li><a href="#">Our Boats</a> <span class="divider">/</span></li>
-            <li class="active">Vanquish VQ80</li>
+            <li class="active">Vanquish VQ90</li>
           </ul>
         </div>
       </div>
       
       <div class="row-fluid">
         <div class="span12">
-          <h1>Vanquish VQ80</h1>
+          <h1>Vanquish VQ90</h1>
         </div>
       </div>
       
@@ -36,46 +36,46 @@
 
          <div class="camera_wrap camera_ash_skin" id="camera2">
       
-         <div class="product_image" data-thumb="/img/products/vq80/vq80-side-view-t.jpg" data-src="/img/products/vq80/vq80-side-view.jpg" >
+         <div class="product_image" data-thumb="/img/products/VQ90/VQ90-side-view-t.jpg" data-src="/img/products/VQ90/VQ90-side-view.jpg" >
              <div class="camera_caption fadeFromBottom">
-             Side view <a href="/img/products/vq80/vq80-side-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
+             Side view <a href="/img/products/VQ90/VQ90-side-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
              </div>
          </div>
       
-          <div class="product_image" data-thumb="/img/products/vq80/vq80-top-view-t.jpg" data-src="/img/products/vq80/vq80-top-view.jpg" >
+          <div class="product_image" data-thumb="/img/products/VQ90/VQ90-top-view-t.jpg" data-src="/img/products/VQ90/VQ90-top-view.jpg" >
              <div class="camera_caption fadeFromBottom">
-             Top view<a href="/img/products/vq80/vq80-top-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
+             Top view<a href="/img/products/VQ90/VQ90-top-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
            </div>
          </div>
              
-         <div class="product_image" data-thumb="/img/products/vq80/vq80-view-01-t.jpg" data-src="/img/products/vq80/vq80-view-01.jpg" >
+         <div class="product_image" data-thumb="/img/products/VQ90/VQ90-view-01-t.jpg" data-src="/img/products/VQ90/VQ90-view-01.jpg" >
              <div class="camera_caption fadeFromBottom">
-             VQ80<a href="/img/products/vq80/vq80-view-01-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
+             VQ90<a href="/img/products/VQ90/VQ90-view-01-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
            </div>
          </div>
              
-         <div class="product_image" data-thumb="/img/products/vq80/vq80-view-02-t.jpg" data-src="/img/products/vq80/vq80-view-02.jpg" >
+         <div class="product_image" data-thumb="/img/products/VQ90/VQ90-view-02-t.jpg" data-src="/img/products/VQ90/VQ90-view-02.jpg" >
              <div class="camera_caption fadeFromBottom">
-             VQ80<a href="/img/products/vq80/vq80-view-02-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
+             VQ90<a href="/img/products/VQ90/VQ90-view-02-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
            </div>
          </div>
              
-         <div class="product_image" data-thumb="/img/products/vq80/vq80-view-03-t.jpg" data-src="/img/products/vq80/vq80-view-03.jpg" >
+         <div class="product_image" data-thumb="/img/products/VQ90/VQ90-view-03-t.jpg" data-src="/img/products/VQ90/VQ90-view-03.jpg" >
              <div class="camera_caption fadeFromBottom">
-             VQ80<a href="/img/products/vq80/vq80-view-03-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
+             VQ90<a href="/img/products/VQ90/VQ90-view-03-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
            </div>
          </div>
              
-         <div class="product_image" data-thumb="/img/products/vq80/vq80-view-04-t.jpg" data-src="/img/products/vq80/vq80-view-04.jpg" >
+         <div class="product_image" data-thumb="/img/products/VQ90/VQ90-view-04-t.jpg" data-src="/img/products/VQ90/VQ90-view-04.jpg" >
              <div class="camera_caption fadeFromBottom">
-             VQ80<a href="/img/products/vq80/vq80-view-04-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
+             VQ90<a href="/img/products/VQ90/VQ90-view-04-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
            </div>
          </div>
          
       <?php /*
-           <div class="product_image" data-thumb="/img/products/vq80/vq80-top-sec-view-t.jpg" data-src="/img/products/vq80/VQ43-top-sec-view.jpg" >
+           <div class="product_image" data-thumb="/img/products/VQ90/VQ90-top-sec-view-t.jpg" data-src="/img/products/VQ90/VQ43-top-sec-view.jpg" >
              <div class="camera_caption fadeFromBottom">
-            Top view interior <a href="/img/products/vq80/vq80-top-sec-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
+            Top view interior <a href="/img/products/VQ90/VQ90-top-sec-view-large.jpg" class="product_image view_large group"><i class=" icon-fullscreen"></i> View large</a>
            </div>
          </div>
 */
@@ -95,31 +95,35 @@
     
                     <tr>
                             <td>Length overall:</td>
-                            <td>10.21m</td>
+                            <td>27.40m</td>
                     </tr>
                     <tr>
                             <td>Length waterline:</td>
-                            <td>9.85m</td>
+                            <td>26.53m</td>
                     </tr>
                     <tr>
                             <td>Beam max:</td>
-                            <td>2.91</td>
+                            <td>7.2m</td>
                     </tr>
                     <tr>
                             <td>Draught including drives:</td>
-                            <td>0.9m</td>
+                            <td>1.66m</td>
                     </tr>
                     <tr>
                             <td>Displacement:</td>
-                            <td>3600 Liters</td>
+                            <td>60000 Liters</td>
                     </tr>
                     <tr>
                             <td>Fuel:</td>
-                            <td>400 Liters</td>
+                            <td>10000 Liters</td>
+                    </tr>
+                    <tr>
+                            <td>Fresh water:</td>
+                            <td>750 Liters</td>
                     </tr>
                     <tr>
                             <td>Engines:</td>
-                            <td>1x 370hp</td>
+                            <td>2x 4000hp or 3x 2000hp</td>
                     </tr>
                     <tr>
                             <td>Max speed:</td>
@@ -127,10 +131,14 @@
                     </tr>
                     <tr>
                             <td>Accommodation:</td>
-                            <td>2</td>
+                            <td>2+2+2+2 crew</td>
                     </tr>
                     <tr>
                             <td>Naval architecture:</td>
+                            <td>Marlon Weijers</td>
+                    </tr>
+                    <tr>
+                            <td>Styling:</td>
                             <td>Marlon Weijers</td>
                     </tr>
                     <tr>
@@ -139,7 +147,7 @@
                     </tr>
                     <tr>
                             <td>Classification:</td>
-                            <td>CE-B</td>
+                            <td>LLOYDS</td>
                     </tr>
             </table>
         </div>

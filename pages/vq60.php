@@ -70,31 +70,35 @@
     
                     <tr>
                             <td>Length overall:</td>
-                            <td>10.21m</td>
+                            <td>18.20m</td>
                     </tr>
                     <tr>
                             <td>Length waterline:</td>
-                            <td>9.85m</td>
+                            <td>12.53m</td>
                     </tr>
                     <tr>
                             <td>Beam max:</td>
-                            <td>2.91</td>
+                            <td>5m</td>
                     </tr>
                     <tr>
                             <td>Draught including drives:</td>
-                            <td>0.9m</td>
+                            <td>1.4m</td>
                     </tr>
                     <tr>
                             <td>Displacement:</td>
-                            <td>3600 Liters</td>
+                            <td>20000 Liters</td>
                     </tr>
                     <tr>
                             <td>Fuel:</td>
-                            <td>400 Liters</td>
+                            <td>4000 Liters</td>
+                    </tr>
+                    <tr>
+                            <td>Fresh water:</td>
+                            <td>250 Liters</td>
                     </tr>
                     <tr>
                             <td>Engines:</td>
-                            <td>1x 370hp</td>
+                            <td>1x 900hp or more</td>
                     </tr>
                     <tr>
                             <td>Max speed:</td>
@@ -102,10 +106,14 @@
                     </tr>
                     <tr>
                             <td>Accommodation:</td>
-                            <td>2</td>
+                            <td>2+2+2 crew</td>
                     </tr>
                     <tr>
                             <td>Naval architecture:</td>
+                            <td>Marlon Weijers</td>
+                    </tr>
+                    <tr>
+                            <td>Styling:</td>
                             <td>Marlon Weijers</td>
                     </tr>
                     <tr>
@@ -114,7 +122,7 @@
                     </tr>
                     <tr>
                             <td>Classification:</td>
-                            <td>CE-B</td>
+                            <td>CE-B or LLOYDS</td>
                     </tr>
             </table>
         </div>

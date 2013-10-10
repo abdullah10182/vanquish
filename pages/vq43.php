@@ -72,27 +72,31 @@
                     </tr>
                     <tr>
                             <td>Length waterline:</td>
-                            <td>9.85m</td>
+                            <td>12.53m</td>
                     </tr>
                     <tr>
                             <td>Beam max:</td>
-                            <td>2.91</td>
+                            <td>3.71m</td>
                     </tr>
                     <tr>
                             <td>Draught including drives:</td>
-                            <td>0.9m</td>
+                            <td>1.15m</td>
                     </tr>
                     <tr>
                             <td>Displacement:</td>
-                            <td>3600 Liters</td>
+                            <td>5500 Liters</td>
                     </tr>
                     <tr>
                             <td>Fuel:</td>
-                            <td>400 Liters</td>
+                            <td>800 Liters</td>
+                    </tr>
+                    <tr>
+                            <td>Fresh water:</td>
+                            <td>150 Liters</td>
                     </tr>
                     <tr>
                             <td>Engines:</td>
-                            <td>1x 370hp</td>
+                            <td>2x 370hp or more</td>
                     </tr>
                     <tr>
                             <td>Max speed:</td>
@@ -100,10 +104,14 @@
                     </tr>
                     <tr>
                             <td>Accommodation:</td>
-                            <td>2</td>
+                            <td>2+2</td>
                     </tr>
                     <tr>
                             <td>Naval architecture:</td>
+                            <td>Marlon Weijers</td>
+                    </tr>
+                    <tr>
+                            <td>Styling:</td>
                             <td>Marlon Weijers</td>
                     </tr>
                     <tr>

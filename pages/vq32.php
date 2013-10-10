@@ -74,7 +74,7 @@
                     </tr>
                     <tr>
                             <td>Beam max:</td>
-                            <td>2.91</td>
+                            <td>2.91m</td>
                     </tr>
                     <tr>
                             <td>Draught including drives:</td>
@@ -87,6 +87,10 @@
                     <tr>
                             <td>Fuel:</td>
                             <td>400 Liters</td>
+                    </tr>
+                    <tr>
+                            <td>Fresh water:</td>
+                            <td>100 Liters</td>
                     </tr>
                     <tr>
                             <td>Engines:</td>
@@ -102,6 +106,10 @@
                     </tr>
                     <tr>
                             <td>Naval architecture:</td>
+                            <td>Marlon Weijers</td>
+                    </tr>
+                    <tr>
+                            <td>Styling:</td>
                             <td>Marlon Weijers</td>
                     </tr>
                     <tr>
