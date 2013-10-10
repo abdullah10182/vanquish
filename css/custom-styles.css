@@ -270,10 +270,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', end
 }
 
 /*----------- product -----------*/
-.product_description {
+.product_specs {
     margin-left: 0;
     padding-left: 30px;
     border-left: 1px solid lightgrey;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.product_specs  {
+    float: right;
+}
+
+.product_description {
+    margin-left: 0;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid lightgrey;
+ 
+ 
 }
 
 /*----front boxes---*/

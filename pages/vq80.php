@@ -88,9 +88,65 @@
 
         </div>
         
-        <!--Insert Project Details-->
-        <div class="span4 product_description">
-   
+          <!--Insert Project Details-->
+        <div class="span4 product_specs">
+        <h3>Specifications</h3>
+            <table  class="table table-striped">
+    
+                    <tr>
+                            <td>Length overall:</td>
+                            <td>10.21m</td>
+                    </tr>
+                    <tr>
+                            <td>Length waterline:</td>
+                            <td>9.85m</td>
+                    </tr>
+                    <tr>
+                            <td>Beam max:</td>
+                            <td>2.91</td>
+                    </tr>
+                    <tr>
+                            <td>Draught including drives:</td>
+                            <td>0.9m</td>
+                    </tr>
+                    <tr>
+                            <td>Displacement:</td>
+                            <td>3600 Liters</td>
+                    </tr>
+                    <tr>
+                            <td>Fuel:</td>
+                            <td>400 Liters</td>
+                    </tr>
+                    <tr>
+                            <td>Engines:</td>
+                            <td>1x 370hp</td>
+                    </tr>
+                    <tr>
+                            <td>Max speed:</td>
+                            <td> 40kn+ depending on engines</td>
+                    </tr>
+                    <tr>
+                            <td>Accommodation:</td>
+                            <td>2</td>
+                    </tr>
+                    <tr>
+                            <td>Naval architecture:</td>
+                            <td>Marlon Weijers</td>
+                    </tr>
+                    <tr>
+                            <td>Interior design:</td>
+                            <td>Marlon Weijers</td>
+                    </tr>
+                    <tr>
+                            <td>Classification:</td>
+                            <td>CE-B</td>
+                    </tr>
+            </table>
+        </div>
+        
+        </div>
+        
+        <div class="span8 product_description">
           <p>The vanquish VQ model line is an exceptionally  performance motor cruiser, 
               Vanquish provides beautiful, comfortable accommodation for  guests while allowing 
               them to enjoy the excitement of its high top speed. A fully enclosed superstructure 
@@ -104,9 +160,8 @@
              and fast and responsive acceleration with a top speed of 40+ knots</p>
           <br />
 
-        </div>
-      </div>
-        		
+        </div>	
+      </div>	
     </div>
   </section>  
   
