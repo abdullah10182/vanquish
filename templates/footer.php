@@ -22,8 +22,8 @@
         <!--Bottom Section Three-->
         <div class="span4 foot_about">
           <h2>Contact Info</h2>
-          <p>Weg en Bos 21  <br />
-          2661 DG, Bergschenhoek <br />
+          <p>Oud Loosdrechtsedijk 161  <br />
+          1231 LV, Loosdrecht <br />
           The Netherlands</p>
           <p><i class="icon-phone"></i> <a class="more" href="tel:+31(0)105221769">+31(0) 105 221 769</a> <br />
             <i class=" icon-mobile-phone"></i> <a class="more" href="tel:+31(0)620026960">+31(0) 620 026 960</a>
