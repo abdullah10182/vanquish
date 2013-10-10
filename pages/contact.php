@@ -95,7 +95,8 @@
   
   <!--Map Section-->
   <section id="map">
-     <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Weg+en+Bos+21++2661+DG,+Bergschenhoek+&amp;aq=&amp;sll=51.979217,4.504931&amp;sspn=0.005915,0.016512&amp;t=m&amp;g=51.979217,4.50494&amp;ie=UTF8&amp;hq=&amp;hnear=Weg+en+Bos+21,+2661+DG+Bergschenhoek,+Lansingerland,+Zuid-Holland,+The+Netherlands&amp;ll=51.986,4.504903&amp;spn=0.01183,0.033023&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+    <!-- <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Weg+en+Bos+21++2661+DG,+Bergschenhoek+&amp;aq=&amp;sll=51.979217,4.504931&amp;sspn=0.005915,0.016512&amp;t=m&amp;g=51.979217,4.50494&amp;ie=UTF8&amp;hq=&amp;hnear=Weg+en+Bos+21,+2661+DG+Bergschenhoek,+Lansingerland,+Zuid-Holland,+The+Netherlands&amp;ll=51.986,4.504903&amp;spn=0.01183,0.033023&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe> -->
+     <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Oud+Loosdrechtsedijk+161&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=59.206892,135.263672&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Oud-Loosdrechtsedijk+161,+1231+LV+Loosdrecht,+Wijdemeren,+Noord-Holland,+The+Netherlands&amp;ll=52.207047,5.085544&amp;spn=0.002853,0.008256&amp;z=18&amp;iwloc=A&amp;output=embed"></iframe>
   </section>
   
   
