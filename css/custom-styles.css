@@ -276,6 +276,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', end
     border-left: 1px solid lightgrey;
     overflow: hidden;
     font-size: 12px;
+    margin-top: -66px;
 }
 
 .product_specs  {
