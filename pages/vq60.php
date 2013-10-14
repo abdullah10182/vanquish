@@ -98,7 +98,7 @@
                     </tr>
                     <tr>
                             <td>Engines:</td>
-                            <td>1x 900hp or more</td>
+                            <td>2x 900hp or more</td>
                     </tr>
                     <tr>
                             <td>Max speed:</td>
