@@ -1,137 +1,48 @@
-<div class="row-fluid text-center">
-  
-          
-          <!--Project Thumbnail One-->
+<?php 
+    $dir_t = "../img/gallery/vq32/thumbnail/*.jpg";
+    $dir = "../img/gallery/vq32/image/*.jpg";
+    //get the list of all files with .jpg extension in the directory and safe it in an array named $images
+    $images_t = glob( $dir_t );
+    $images = glob( $dir );
+?>  
+    <!-- ---------------------------------------- -->
+    <!--start-->  
+   <div class="row-fluid text-center">        
+ <?php
+  $counter =0;
+ for (($i=count($images)-1); $i>=0; $i--) {
+
+     if ($counter == 4){
+        
+         echo "  <!--start-->
+             <div class=\"row-fluid text-center\"> ";
+         $counter =0;
+         
+     }
+     ?>  
     		<div class="span3 thumbs">
-    			<img src="/img/gallery/topshelf2013/thumbnail/image-001-t.jpg" alt="">
-    			<a class="gallery_01" href="/img/gallery/topshelf2013/image/image-001.jpg" title="Vanquish Yachts">
+    			<img  src="<?php echo $images_t[$i]; ?>" alt="">
+    			<a class="gallery_01" href="<?php echo $images[$i]; ?>" title="Vanquish Yachts">
     				<span class="title">
-    					<span>Open Shelf 2013: Vanquish VQ32 </span>
+    					<span>Vanquish VQ43</span>
     				</span>	
     			</a>
     		</div>
-    		
-    		<!--Project Thumbnail Two-->
-        	<div class="span3 thumbs">
-    			<img src="/img/gallery/topshelf2013/thumbnail/image-002-t.jpg" alt="">
-    			<a class="gallery_01" href="/img/gallery/topshelf2013/image/image-002.jpg" title="Vanquish Yachts">
-    				<span class="title">
-    					<span>Open Shelf 2013: Vanquish VQ32 </span>
-    				</span>	
-    			</a>
-    		</div>
-    		
-    		<!--Project Thumbnail Three-->
-    	    	<div class="span3 thumbs">
-    			<img src="/img/gallery/topshelf2013/thumbnail/image-003-t.jpg" alt="">
-    			<a class="gallery_01" href="/img/gallery/topshelf2013/image/image-003.jpg" title="Vanquish Yachts">
-    				<span class="title">
-    					<span>Open Shelf 2013: Vanquish VQ32 </span>
-    				</span>	
-    			</a>
-    		</div>
-                
-                	<!--Project Thumbnail four -->
-       		<div class="span3 thumbs">
-    			<img src="/img/gallery/topshelf2013/thumbnail/image-004-t.jpg" alt="">
-    			<a class="gallery_01" href="/img/gallery/topshelf2013/image/image-004.jpg" title="Vanquish Yachts">
-    				<span class="title">
-    					<span>Open Shelf 2013: Vanquish VQ32 </span>
-    				</span>	
-    			</a>
-    		</div>
-    		
-    </div><!--End First Row of Work-->
-    
-          <div class="row-fluid text-center">
   
-          
-          <!--Project Thumbnail One-->
-    		<div class="span3 thumbs">
-    			<img src="/img/gallery/topshelf2013/thumbnail/image-005-t.jpg" alt="">
-    			<a class="gallery_01" href="/img/gallery/topshelf2013/image/image-005.jpg" title="Vanquish Yachts">
-    				<span class="title">
-    					<span>Open Shelf 2013: Vanquish VQ32 </span>
-    				</span>	
-    			</a>
-    		</div>
-    		
-    		<!--Project Thumbnail Two-->
-        	<div class="span3 thumbs">
-    			<img src="/img/gallery/topshelf2013/thumbnail/image-006-t.jpg" alt="">
-    			<a class="gallery_01" href="/img/gallery/topshelf2013/image/image-006.jpg" title="Vanquish Yachts">
-    				<span class="title">
-    					<span>Open Shelf 2013: Vanquish VQ32 </span>
-    				</span>	
-    			</a>
-    		</div>
-    		
-    		<!--Project Thumbnail Three-->
-    	    	<div class="span3 thumbs">
-    			<img src="/img/gallery/topshelf2013/thumbnail/image-007-t.jpg" alt="">
-    			<a class="gallery_01" href="/img/gallery/topshelf2013/image/image-007.jpg" title="Vanquish Yachts">
-    				<span class="title">
-    					<span>Open Shelf 2013: Vanquish VQ32 </span>
-    				</span>	
-    			</a>
-    		</div>
-                
-                	<!--Project Thumbnail four -->
-       		<div class="span3 thumbs">
-    			<img src="/img/gallery/topshelf2013/thumbnail/image-008-t.jpg" alt="">
-    			<a class="gallery_01" href="/img/gallery/topshelf2013/image/image-008.jpg" title="Vanquish Yachts">
-    				<span class="title">
-    					<span>Open Shelf 2013: Vanquish VQ32 </span>
-    				</span>	
-    			</a>
-    		</div>
-    		
-    </div><!--End First Row of Work-->
-    
-    
-     <div class="row-fluid text-center">
-  
-          
-          <!--Project Thumbnail One-->
-    		<div class="span3 thumbs">
-    			<img src="/img/gallery/topshelf2013/thumbnail/image-009-t.jpg" alt="">
-    			<a class="gallery_01" href="/img/gallery/topshelf2013/image/image-009.jpg" title="Vanquish Yachts">
-    				<span class="title">
-    					<span>Open Shelf 2013: Vanquish VQ32 </span>
-    				</span>	
-    			</a>
-    		</div>
-    		
-    		<!--Project Thumbnail Two-->
-        	<div class="span3 thumbs">
-    			<img src="/img/gallery/topshelf2013/thumbnail/image-010-t.jpg" alt="">
-    			<a class="gallery_01" href="/img/gallery/topshelf2013/image/image-010.jpg" title="Vanquish Yachts">
-    				<span class="title">
-    					<span>Open Shelf 2013: Vanquish VQ32 </span>
-    				</span>	
-    			</a>
-    		</div>
-    		
-    		<!--Project Thumbnail Three-->
-    	    	<div class="span3 thumbs">
-    			<img src="/img/gallery/topshelf2013/thumbnail/image-011-t.jpg" alt="">
-    			<a class="gallery_01" href="/img/gallery/topshelf2013/image/image-011.jpg" title="Vanquish Yachts">
-    				<span class="title">
-    					<span>Open Shelf 2013: Vanquish VQ32 </span>
-    				</span>	
-    			</a>
-    		</div>
-                
-                	<!--Project Thumbnail four -->
-       		<div class="span3 thumbs">
-    			<img src="/img/gallery/topshelf2013/thumbnail/image-012-t.jpg" alt="">
-    			<a class="gallery_01" href="/img/gallery/topshelf2013/image/image-012.jpg" title="Vanquish Yachts">
-    				<span class="title">
-    					<span>Open Shelf 2013: Vanquish VQ32 </span>
-    				</span>	
-    			</a>
-    		</div>
-    		
-    </div><!--End First Row of Work-->
-    
-    
+    <?php 
+
+       if ($counter == 3){
+            echo "</div>   <!--end--> ";
+        
+       }
+  $counter++;
+       /*
+    if (current($images) == $images[0]) {
+         echo "</div>   <!--end--> ";
+    }*/
+       
+       
+   
+ } ?>  
+ 
+ 

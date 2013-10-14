@@ -15,7 +15,7 @@ $yt_link_class ="yt_link";
 
   <!-- header image front page-->
   <section id="clients"> 
-        <img src="/img/generic/gallery-footer.jpg" >
+        <img src="/img/generic/gallery-footer-10.jpg" >
   </section>
 
   <!--Main Content-->

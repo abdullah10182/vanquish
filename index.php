@@ -168,8 +168,9 @@ setcookie("Vanquish_VisitedCookie", "recurring_visitor", time()+2592000);  /* ex
 				images:[
 					"img/slides/slide-01.jpg",
                                         "img/slides/slide-02.jpg",
-                                        "img/slides/slide-09.jpg",
+                                        "img/slides/slide-09.jpg",                                                             
                                         "img/slides/slide-04.jpg",
+                                        "img/slides/slide-11.jpg", 
                                         "img/slides/slide-05.jpg",        
                                         "img/slides/slide-10.jpg",        
                                         "img/slides/slide-07.jpg",     

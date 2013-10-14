@@ -66,7 +66,7 @@
       <div class="accordion-inner">
         <?php 
             $path_header = $_SERVER['DOCUMENT_ROOT'];
-            $path_header .= "/templates/gallery-images-02.php";
+            $path_header .= "/templates/gallery-images-01.php";
             include($path_header);
        ?>
       </div>
