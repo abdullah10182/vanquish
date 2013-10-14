@@ -24,7 +24,7 @@
     			<img  src="<?php echo $images_t[$i]; ?>" alt="">
     			<a class="gallery_01" href="<?php echo $images[$i]; ?>" title="Vanquish Yachts">
     				<span class="title">
-    					<span>Vanquish VQ43</span>
+    					<span>Vanquish VQ32</span>
     				</span>	
     			</a>
     		</div>
