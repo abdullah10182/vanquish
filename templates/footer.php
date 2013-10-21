@@ -43,8 +43,9 @@
             <p>&copy; Vanquish Yachts. All Rights Reserved.</p>
             </div>
 
-            <div class="span8 text-right">
-                 <a class="facebook" href="http://www.facebook.com/VanquishYachts" target="_blank"><img src="/img/generic/facebook.png"></a>
+            <div class="span8 text-right social_icons">
+                 <a  href="http://www.facebook.com/VanquishYachts" target="_blank"><img src="/img/generic/facebook.png"></a>
+                 <a  href="http://www.youtube.com/channel/UCscWkaZiSTE7kufY1Sx_YjQ" target="_blank"><img src="/img/generic/youtube.png"></a>
             </div>
         </div>
     </div>
