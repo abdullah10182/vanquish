@@ -1,6 +1,7 @@
 <?php 
 $yt_link_vq32="http://www.youtube.com/embed/dY0PGR9wiaI?rel=0&amp;wmode=transparent&amp;autoplay=1&amp;vq=large";
-$yt_link_vq43="http://www.youtube.com/embed/U7GVAashAPQ?rel=0&amp;wmode=transparent&amp;autoplay=1&amp;vq=large";
+$yt_link_vq43="http://www.youtube.com/embed/wJTbvuvufe0?rel=0&amp;wmode=transparent&amp;autoplay=1&amp;vq=large";
+
 $yt_link_class ="yt_link";
 
    $path_header = $_SERVER['DOCUMENT_ROOT'];
