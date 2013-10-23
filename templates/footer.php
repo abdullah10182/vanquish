@@ -25,8 +25,11 @@
           <p>Oud Loosdrechtsedijk 161  <br />
           1231 LV, Loosdrecht <br />
           The Netherlands</p>
-          <p><i class="icon-phone"></i> <a class="more" href="tel:+31(0)105221769">+31(0) 105 221 769</a> <br />
-            <i class=" icon-mobile-phone"></i> <a class="more" href="tel:+31(0)620026960">+31(0) 620 026 960</a>
+          
+          <p>            
+              <i class="icon-user"></i> Lex Sluyter <br />
+              <i class="icon-phone"></i> <a class="more" href="tel:+31(0)105221769">+31(0) 105 221 769</a> <br />
+            <i class=" icon-mobile-phone"></i> <a class="more" href="tel:+31(0)654227201">+31(0) 654 227 201</a>
           </p>
          
           
