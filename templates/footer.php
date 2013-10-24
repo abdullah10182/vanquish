@@ -27,7 +27,7 @@
           The Netherlands</p>
           
           <p>            
-              <i class="icon-user"></i> Lex Sluyter <br />
+              <i class="icon icon-user"></i><strong> Lex Sluyter</strong> <br />
               <i class="icon-phone"></i> <a class="more" href="tel:+31(0)105221769">+31(0) 105 221 769</a> <br />
             <i class=" icon-mobile-phone"></i> <a class="more" href="tel:+31(0)654227201">+31(0) 654 227 201</a>
           </p>

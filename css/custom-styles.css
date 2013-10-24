@@ -272,6 +272,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', end
     margin-right:10px;
 }
 
+/*icon fix*/
+
+.icon {
+    background-image: none;
+}
+
 /*----------- product -----------*/
 .product_specs {
     margin-left: 0;
